@@ -5,7 +5,7 @@ subtitle: "Robotics Engineer"
 name: "Muhammad Asfandyar Khan"
 description: "Professional portfolio website for Asfand."
 url: "https://asfy59.github.io"
-baseurl: "/asfand"
+baseurl: "/portfolio"
 repository: "Asfy59/portfolio"
 
 remote_theme: "mmistakes/minimal-mistakes"
