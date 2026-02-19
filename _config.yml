@@ -1,9 +1,9 @@
 locale: "en-US"
-title: "Asfand"
+title: "Muhammad Asfandyar Khan"
 title_separator: "|"
-subtitle: "Robotics Engineer"
+subtitle: "Robotics and Embedded Software Engineer"
 name: "Muhammad Asfandyar Khan"
-description: "Professional portfolio website for Asfand."
+description: "Portfolio of Muhammad Asfandyar Khan: robotics, embedded systems, perception, and autonomy engineering."
 url: "https://asfy59.github.io"
 baseurl: "/portfolio"
 repository: "Asfy59/portfolio"
@@ -18,17 +18,17 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name: "Asfand"
+  name: "Muhammad Asfandyar Khan"
   avatar: "/assets/images/profile.jpg"
-  bio: "Software Engineer focused on building reliable, user-first products."
-  location: "United States"
+  bio: "Robotics and embedded software engineer building real-time multi-sensor perception and autonomy systems."
+  location: "Konstanz, Germany"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Asfy59"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/your-linkedin"
+      url: "https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani"
 
 minimal_mistakes_skin: "default"
 search: true
@@ -52,3 +52,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Asfy59"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani"
