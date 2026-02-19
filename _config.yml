@@ -5,8 +5,8 @@ subtitle: "Software Engineer"
 name: "Asfand"
 description: "Professional portfolio website for Asfand."
 url: "https://asfy59.github.io"
-baseurl: "/portfolio"
-repository: "Asfy59/portfolio"
+baseurl: "/asfand"
+repository: "Asfy59/asfand"
 
 remote_theme: "mmistakes/minimal-mistakes"
 
