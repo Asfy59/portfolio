@@ -1,12 +1,12 @@
 locale: "en-US"
 title: "Asfand"
 title_separator: "|"
-subtitle: "Software Engineer"
-name: "Asfand"
+subtitle: "Robotics Engineer"
+name: "Muhammad Asfandyar Khan"
 description: "Professional portfolio website for Asfand."
 url: "https://asfy59.github.io"
-baseurl: "/asfand"
-repository: "Asfy59/asfand"
+baseurl: ""
+repository: "Asfy59/portfolio"
 
 remote_theme: "mmistakes/minimal-mistakes"
 
