@@ -1,0 +1,54 @@
+locale: "en-US"
+title: "Asfand"
+title_separator: "|"
+subtitle: "Software Engineer"
+name: "Asfand"
+description: "Professional portfolio website for Asfand."
+url: "https://asfy59.github.io"
+baseurl: "/asfand"
+repository: "Asfy59/asfand"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+author:
+  name: "Asfand"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Software Engineer focused on building reliable, user-first products."
+  location: "United States"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Asfy59"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/your-linkedin"
+
+minimal_mistakes_skin: "default"
+search: true
+
+atom_feed:
+  hide: true
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Asfy59"
