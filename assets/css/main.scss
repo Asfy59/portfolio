@@ -3,10 +3,71 @@
 
 @import "minimal-mistakes";
 
+:root {
+  --brand-ink: #0f172a;
+  --brand-accent: #0f766e;
+  --brand-accent-dark: #115e59;
+  --surface-soft: #f5f7fb;
+}
+
 .page__hero--overlay {
-  min-height: 52vh;
+  min-height: 58vh;
 }
 
 .site-title {
   font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.page__content {
+  line-height: 1.75;
+}
+
+.page__content h2,
+.page__content h3 {
+  color: var(--brand-ink);
+  letter-spacing: 0.2px;
+}
+
+.page__content h2 {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.35rem;
+  margin-top: 2rem;
+}
+
+.page__content ul li {
+  margin-bottom: 0.45rem;
+}
+
+.btn,
+.btn--primary {
+  border-radius: 999px;
+  padding: 0.6rem 1rem;
+}
+
+.btn--primary {
+  background: var(--brand-accent);
+  border-color: var(--brand-accent);
+}
+
+.btn--primary:hover {
+  background: var(--brand-accent-dark);
+  border-color: var(--brand-accent-dark);
+}
+
+.archive__item,
+.feature__item {
+  border-radius: 12px;
+}
+
+.notice,
+.notice--primary,
+.notice--info {
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .page__hero--overlay {
+    min-height: 50vh;
+  }
 }
