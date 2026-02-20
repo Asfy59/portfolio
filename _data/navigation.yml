@@ -1,13 +1,17 @@
 main:
+  - title: "Home"
+    url: /#top
   - title: "Journey"
-    url: /journey/
+    url: /#journey
+  - title: "About"
+    url: /#about
   - title: "Experience"
-    url: /experience/
+    url: /#experience
   - title: "Projects"
-    url: /projects/
+    url: /#projects
+  - title: "Contact"
+    url: /#contact
   - title: "Media"
     url: /media/
   - title: "Resume"
     url: /resume/
-  - title: "Contact"
-    url: /contact/
