@@ -19,7 +19,7 @@ plugins:
 
 author:
   name: "Muhammad Asfandyar Khan"
-  avatar: "/assets/images/profile.jpg"
+  avatar: "/assets/images/profile/profile.jpg"
   bio: "Robotics and embedded software engineer building real-time multi-sensor perception and autonomy systems."
   location: "Konstanz, Germany"
   links:
@@ -55,3 +55,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani"
+
+footer_scripts:
+  - /assets/js/theme-toggle.js

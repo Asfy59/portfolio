@@ -7,6 +7,7 @@
   --bg: #090e1a;
   --bg-soft: #0f172a;
   --surface: #111c31;
+  --surface-soft: #16233f;
   --text: #e7edf7;
   --text-soft: #aab8d2;
   --line: #233252;
@@ -14,29 +15,44 @@
   --accent-strong: #1bc39b;
 }
 
+:root[data-theme="light"] {
+  --bg: #f2f5fb;
+  --bg-soft: #ffffff;
+  --surface: #ffffff;
+  --surface-soft: #edf2fb;
+  --text: #132036;
+  --text-soft: #4f607e;
+  --line: #dbe4f2;
+  --accent: #0f766e;
+  --accent-strong: #0b5f58;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: radial-gradient(1200px 600px at 20% -10%, #16233f 0%, var(--bg) 55%);
+  background: radial-gradient(1200px 600px at 20% -10%, var(--surface-soft) 0%, var(--bg) 55%);
   color: var(--text);
+  transition: background 0.25s ease, color 0.25s ease;
 }
 
 .masthead,
 .page__footer {
-  background: rgba(9, 14, 26, 0.92);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
   border-color: var(--line);
 }
 
 .greedy-nav a,
 .site-title,
-.page__footer a {
+.page__footer a,
+.masthead__menu-item a {
   color: var(--text);
 }
 
 .greedy-nav a:hover,
-.page__footer a:hover {
+.page__footer a:hover,
+.masthead__menu-item a:hover {
   color: var(--accent);
 }
 
@@ -53,11 +69,11 @@ body {
 }
 
 .hero-card {
-  background: linear-gradient(135deg, rgba(24, 41, 74, 0.75), rgba(11, 23, 41, 0.9));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--surface-soft) 85%, transparent), color-mix(in srgb, var(--bg-soft) 92%, transparent));
   border: 1px solid var(--line);
   border-radius: 16px;
   padding: 2rem;
-  margin: 0 0 2rem;
+  margin: 0 0 1.2rem;
 }
 
 .hero-kicker {
@@ -69,7 +85,7 @@ body {
 
 .hero-card h1 {
   margin: 0 0 0.7rem;
-  color: #f8fbff;
+  color: var(--text);
 }
 
 .hero-card p {
@@ -90,11 +106,97 @@ body {
 
 .story-section h2,
 .story-section h3 {
-  color: #f4f8ff;
+  color: var(--text);
 }
 
-.story-section ul {
-  margin-top: 0.6rem;
+.story-section p,
+.story-section li {
+  color: var(--text-soft);
+}
+
+.timeline {
+  position: relative;
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  border-left: 2px solid var(--line);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 0.8rem 0.8rem 0.7rem 1rem;
+  background: color-mix(in srgb, var(--surface-soft) 45%, var(--surface));
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.6rem;
+  top: 1rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+.timeline-item h3 {
+  margin: 0 0 0.2rem;
+}
+
+.timeline-year {
+  margin: 0 0 0.25rem;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.4px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.project-card {
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface-soft) 40%, var(--surface));
+}
+
+.project-card img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.project-placeholder {
+  height: 190px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--accent);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, transparent), color-mix(in srgb, var(--surface-soft) 95%, var(--surface)));
+  border-bottom: 1px solid var(--line);
+}
+
+.project-body {
+  padding: 0.9rem;
+}
+
+.project-body h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.03rem;
+}
+
+.project-body p {
+  margin: 0;
 }
 
 .btn,
@@ -122,11 +224,35 @@ body {
 }
 
 a {
-  color: #78e5cd;
+  color: color-mix(in srgb, var(--accent) 88%, white 12%);
 }
 
 a:hover {
-  color: #b7f5e7;
+  color: color-mix(in srgb, var(--accent) 62%, white 38%);
+}
+
+.theme-toggle {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 30;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.48rem 0.9rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -136,5 +262,10 @@ a:hover {
 
   .story-section {
     padding: 1rem;
+  }
+
+  .project-card img,
+  .project-placeholder {
+    height: 170px;
   }
 }
