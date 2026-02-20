@@ -3,38 +3,54 @@ title: "Projects"
 permalink: /projects/
 ---
 
-## Selected Academic and Technical Projects
+## Selected Projects
 
-### Multi-Robot Semantic Obstacle Avoidance (Master's Thesis)
+### Multi-Robot Semantic Obstacle Avoidance Framework
 **2025**
 
-- Built a ROS2-based multi-robot perception and semantic navigation pipeline for smart-warehouse scenarios.
-- Combined mmWave radar fusion, graph-based representations, GNN inference, polygon tracking, and costmap integration.
-- Demonstrated low-latency operation (~50 ms sensing-to-costmap) in hardware-in-the-loop trials.
+- Built an end-to-end ROS2 perception-to-planning pipeline for smart-warehouse navigation.
+- Integrated multi-robot radar fusion, graph construction, GNN inference, polygon tracking, and semantic costmap insertion.
+- Demonstrated ~50 ms sensing-to-costmap latency in hardware-in-the-loop trials.
 - Stack: ROS2, PyTorch Geometric, Jetson, TI AWR1843, Vicon, C++, Python.
 
-### NeRF Sensor Simulation Pipeline in CARLA
+### UAV Payload Control and Edge Tracking Integration
+**2025-2026**
+
+- Implemented MAVLink-to-payload command translation across camera and gimbal control stacks.
+- Built reusable Python control interfaces for repeatable hardware tests and integration validation.
+- Benchmarked real-time single-object tracking variants on Jetson Orin NX under edge constraints.
+- Stack: MAVLink, VISCA, SimpleBGC, OpenCV, GStreamer, Jetson Orin NX, Python.
+
+### NeRF Dataset Generation in CARLA
 **2024**
 
-- Developed a modular CARLA dataset generation workflow for photorealistic multi-view NeRF training.
-- Enabled scalable agent-based scene rendering for synthetic robotics sensor datasets.
-- Stack: CARLA, Python, simulation tooling.
+- Created a modular synthetic dataset pipeline for photorealistic multi-view NeRF training.
+- Automated agent-based scene generation for scalable robotics perception experiments.
+- Stack: CARLA, Python.
+
+### MEMS Sensor Automation and I3C Validation Toolkit
+**2023**
+
+- Designed automated validation tooling for disturbance injection and serial test orchestration.
+- Implemented an STM32-targeted C API for Bosch I3C sensor communication across variants.
+- Reduced manual validation overhead and cycle time in internal testing workflows.
+- Stack: Python, C, STM32, I3C, serial tooling.
 
 ### Fingernail Disease Detection via Segmentation and Classification
 **2023**
 
-- Curated and labeled an 11k-image hand dataset for segmentation and disease classification.
-- Applied semi-supervised segmentation for nail isolation, followed by CNN-based classification.
-- Stack: Python, computer vision, deep learning.
+- Labeled and curated an 11k-image hand dataset.
+- Built semi-supervised segmentation plus CNN classification pipeline for disease detection.
+- Stack: Python, OpenCV, deep learning.
 
 ### Autonomous UAV Vision and Telemetry Pipeline
 **2019**
 
-- Built real-time object detection/classification on embedded hardware for competition UAV deployment.
-- Integrated LoRa telemetry for mission-state transmission and operational monitoring.
+- Developed embedded real-time detection/classification with mission telemetry integration.
+- Supported competition deployment under high-pressure iterative testing conditions.
 - Stack: OpenCV, Keras, Jetson Nano, Raspberry Pi, LoRa.
 
-## Publications
+## Publication
 
 ### IEEE IECON 2025
 

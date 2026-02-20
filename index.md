@@ -1,25 +1,25 @@
 ---
 layout: splash
 title: "Muhammad Asfandyar Khan"
-tagline: "Robotics and Embedded Software Engineer"
+tagline: "From Small-Town Pakistan to Robotics Engineering in Germany"
 header:
   overlay_color: "#0f172a"
   overlay_filter: "0.45"
   actions:
+    - label: "Read My Journey"
+      url: "/journey/"
     - label: "View Experience"
       url: "/experience/"
-    - label: "View Projects"
-      url: "/projects/"
-excerpt: "Building reliable perception and autonomy systems for robotics and embedded platforms."
+excerpt: "I build real-world robotics and embedded systems through persistence, practical engineering, and continuous reinvention."
 intro:
-  - excerpt: "I work on multi-robot perception, edge deployment, and real-time system integration with ROS2, radar sensing, and AI-based inference."
+  - excerpt: "My path spans student engineering teams, data and analytics roles, and a return to hands-on robotics through graduate study, research, and UAV autonomy work."
 feature_row:
-  - title: "Multi-Robot Perception"
-    excerpt: "Semantic mapping, graph-based fusion, and low-latency obstacle inference for warehouse-style environments."
-  - title: "Embedded and UAV Systems"
-    excerpt: "Jetson and STM32 integration, protocol-level control pipelines, and hardware-validated deployment."
-  - title: "Applied Robotics AI"
-    excerpt: "Practical ML pipelines including GNN and vision tracking under real-world compute and reliability constraints."
+  - title: "Story"
+    excerpt: "A clear timeline from Pakistan to Germany, including pivotal choices, setbacks, and growth moments."
+  - title: "Engineering Depth"
+    excerpt: "ROS2, radar perception, GNN pipelines, embedded integration, and field validation on real systems."
+  - title: "Next Mission"
+    excerpt: "I am now looking for a role where robotics software and hardware integration create measurable product impact."
 ---
 
 {% include feature_row id="intro" type="center" %}
