@@ -7,8 +7,8 @@ main:
     url: /#strengths
   - title: "Journey"
     url: /#journey
-  - title: "Gallery"
-    url: /#gallery
+  - title: "Projects"
+    url: /projects/
   - title: "Media"
     url: /media/
   - title: "Contact"

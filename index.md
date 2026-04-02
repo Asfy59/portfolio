@@ -9,16 +9,16 @@ classes: wide
 <section id="top" class="landing-hero">
   <div class="hero-copy">
     <p class="eyebrow">Robotics and Embedded Software Engineer</p>
-    <h1>Building perception and autonomy systems that survive real hardware, real latency, and real constraints.</h1>
-    <p class="hero-summary">I work across ROS2, embedded platforms, radar sensing, edge AI, and system integration. My strongest work sits where research-grade ideas have to become stable engineering.</p>
+    <h1>Perception and autonomy engineering for real robots.</h1>
+    <p class="hero-summary">I design and integrate ROS2 pipelines across sensing, inference, and navigation with a strong focus on reliability, latency, and field-ready behavior.</p>
     <div class="hero-actions">
       <a class="btn btn--primary" href="#featured-work">View flagship work</a>
-      <a class="btn" href="#contact">Get in touch</a>
-      <a class="btn" href="{{ '/projects/' | relative_url }}">See all projects</a>
+      <a class="btn" href="{{ '/resume/' | relative_url }}">Resume</a>
+      <a class="btn" href="#contact">Contact</a>
     </div>
     <div class="hero-meta">
       <span>Konstanz, Germany</span>
-      <span>TU Dortmund M.Sc. Automation and Robotics</span>
+      <span>TU Dortmund, M.Sc. Automation and Robotics</span>
       <span>Open to robotics and autonomy roles</span>
     </div>
   </div>
@@ -47,30 +47,30 @@ classes: wide
   <div class="signal-chip">ROS2</div>
   <div class="signal-chip">Jetson</div>
   <div class="signal-chip">Radar Perception</div>
-  <div class="signal-chip">Embedded Validation</div>
   <div class="signal-chip">Sensor Fusion</div>
-  <div class="signal-chip">C++ / Python</div>
-  <div class="signal-chip">Nav2</div>
-  <div class="signal-chip">System Integration</div>
+  <div class="signal-chip">Nav2 Integration</div>
+  <div class="signal-chip">C++ and Python</div>
+  <div class="signal-chip">Embedded Validation</div>
+  <div class="signal-chip">System Debugging</div>
 </section>
 
 <section id="featured-work" class="section-panel">
   <div class="section-heading">
     <p class="eyebrow">Featured Work</p>
-    <h2>Flagship engineering work, not generic portfolio filler.</h2>
-    <p>These are the projects that best represent how I work: systems-heavy, measurable, and validated against constraints instead of idealized demos.</p>
+    <h2>Three projects that best represent my engineering profile.</h2>
+    <p>These highlight end-to-end systems thinking, hands-on integration, and measurable outcomes under practical constraints.</p>
   </div>
 
   <div class="featured-grid">
     <article class="showcase-card showcase-card--wide">
       <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }}" alt="Warehouse-inspired cyber-physical production system scenario">
       <div class="showcase-body">
-        <p class="card-kicker">Master's Thesis · TU Dortmund</p>
+        <p class="card-kicker">Master's Thesis at TU Dortmund</p>
         <h3>Multi-Robot Semantic Obstacle Avoidance</h3>
-        <p>Built an end-to-end ROS2 perception-to-navigation stack using TI mmWave radar, graph construction, GNN inference, tracking, and a custom Nav2 costmap layer for semantic obstacle handling.</p>
+        <p>Built a ROS2 perception-to-navigation pipeline using TI radar, graph construction, GNN inference, tracking, and a custom Nav2 semantic costmap layer.</p>
         <ul class="inline-list">
           <li>63k+ synchronized graph frames</li>
-          <li>about 50 ms end-to-end costmap latency</li>
+          <li>about 50 ms end-to-end latency</li>
           <li>hardware-in-the-loop validation</li>
         </ul>
       </div>
@@ -79,9 +79,9 @@ classes: wide
     <article class="showcase-card">
       <img src="{{ '/assets/FERN/FERN_GROUP.jpg' | relative_url }}" alt="Formula Electric Racing NUST team photo">
       <div class="showcase-body">
-        <p class="card-kicker">Formula Student · FERN</p>
-        <h3>Accumulator and EV Systems Work</h3>
-        <p>Contributed to Formula Electric Racing NUST on accumulator packaging, harness design, subsystem integration, and the kind of deadline-driven debugging that teaches discipline fast.</p>
+        <p class="card-kicker">Formula Student, FERN</p>
+        <h3>Accumulator and EV Subsystem Integration</h3>
+        <p>Worked on accumulator packaging, harness interfaces, and subsystem-level integration in a deadline-driven motorsport engineering environment.</p>
       </div>
     </article>
 
@@ -90,114 +90,78 @@ classes: wide
       <div class="showcase-body">
         <p class="card-kicker">NUST AirWorks</p>
         <h3>Autonomous UAV Vision and Telemetry</h3>
-        <p>Built real-time onboard vision and telemetry workflows on Jetson Nano and Raspberry Pi in a competition environment that ended in a Grand Champion finish at the IMechE UAS Challenge.</p>
-      </div>
-    </article>
-
-    <article class="showcase-card">
-      <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/GNN_arc.png' | relative_url }}" alt="Graph neural network architecture diagram">
-      <div class="showcase-body">
-        <p class="card-kicker">Research Output</p>
-        <h3>Uncertainty-Aware GNN Mapping</h3>
-        <p>Translated raw radar observations into graph-structured semantic inference and co-authored the resulting IEEE IECON 2025 publication on collaborative robot mapping.</p>
+        <p>Built embedded vision and telemetry workflows on Jetson Nano and Raspberry Pi, contributing to a Grand Champion result in the IMechE UAS Challenge.</p>
       </div>
     </article>
   </div>
+
+  <p class="section-link"><a href="{{ '/projects/' | relative_url }}">Open full projects and technical details.</a></p>
 </section>
 
-<section id="strengths" class="section-panel">
+<section id="strengths" class="section-panel section-panel--muted">
   <div class="section-heading">
     <p class="eyebrow">Engineering Strengths</p>
-    <h2>The value is in bridging software, hardware, and validation.</h2>
+    <h2>Where I add value on robotics teams.</h2>
   </div>
 
   <div class="capability-grid">
     <article class="capability-card">
-      <h3>Perception to planning</h3>
-      <p>ROS2 pipelines, sensor fusion, tracking, message design, and navigation integration that keep system boundaries explicit and testable.</p>
+      <h3>Perception to planning integration</h3>
+      <p>Connecting sensing, inference, and navigation through robust ROS2 interfaces and testable data flow boundaries.</p>
     </article>
     <article class="capability-card">
-      <h3>Embedded bring-up</h3>
-      <p>Jetson and STM32 work, serial and protocol debugging, I3C and hardware-software interfaces, plus enough pragmatism to keep delivery moving.</p>
+      <h3>Embedded and protocol-level work</h3>
+      <p>Hands-on bring-up, hardware-software debugging, and protocol integration across Jetson and STM32-based systems.</p>
     </article>
     <article class="capability-card">
-      <h3>Applied ML under constraints</h3>
-      <p>Graph and vision models deployed with latency, synchronization, and data quality constraints in mind instead of benchmark-only thinking.</p>
+      <h3>Applied ML under system constraints</h3>
+      <p>Deploying models with attention to latency, synchronization quality, and deployment realism instead of benchmark-only metrics.</p>
     </article>
     <article class="capability-card">
-      <h3>Execution across contexts</h3>
-      <p>Research labs, industrial teams, startups, and student engineering teams. I can shift between deep technical work and structured delivery.</p>
+      <h3>Execution across research and industry</h3>
+      <p>Clear delivery habits built across academic labs, startups, and larger organizations with measurable outcomes.</p>
     </article>
   </div>
 </section>
 
-<section id="journey" class="section-panel section-panel--muted">
+<section id="journey" class="section-panel">
   <div class="section-heading">
     <p class="eyebrow">Journey</p>
-    <h2>A nonlinear path that still compounds in one direction.</h2>
-    <p>Pakistan to Germany, analytics to embedded systems, student competition teams to research and industrial robotics. The pattern has been consistent: build fast, learn deeply, and move toward harder technical problems.</p>
+    <h2>Focused progression toward harder robotics problems.</h2>
   </div>
 
   <div class="timeline-band">
     <article class="timeline-entry">
       <span class="timeline-year">2016-2020</span>
       <h3>NUST foundation</h3>
-      <p>Electrical engineering, Formula Student pressure, AirWorks competition systems, and early exposure to machine learning and field testing.</p>
+      <p>Electrical engineering, Formula Student, and AirWorks competition systems.</p>
     </article>
     <article class="timeline-entry">
       <span class="timeline-year">2020-2022</span>
-      <h3>Industry discipline</h3>
-      <p>Analytics roles across corporate and startup teams built reporting rigor, automation habits, and stakeholder-facing execution.</p>
+      <h3>Industry operations discipline</h3>
+      <p>Analytics and automation work that strengthened delivery rigor and stakeholder execution.</p>
     </article>
     <article class="timeline-entry">
       <span class="timeline-year">2022-2025</span>
-      <h3>Germany reset</h3>
-      <p>Master's work at TU Dortmund, Bosch sensor validation, VMT simulation work, and a deliberate return to robotics and embedded engineering.</p>
+      <h3>Germany technical reset</h3>
+      <p>Master's work at TU Dortmund plus embedded and controls experience at Bosch and VMT.</p>
     </article>
     <article class="timeline-entry">
       <span class="timeline-year">2025-Now</span>
       <h3>Research to deployment</h3>
-      <p>Publication-backed thesis work, public dataset creation, multi-robot validation, and embedded vision integration in production-adjacent environments.</p>
+      <p>Publication-backed thesis systems and practical embedded vision integration in industry contexts.</p>
     </article>
   </div>
-</section>
-
-<section id="gallery" class="section-panel">
-  <div class="section-heading">
-    <p class="eyebrow">Selected Visuals</p>
-    <h2>Proof from lab, field, and team environments.</h2>
-  </div>
-
-  <div class="gallery-grid">
-    <figure class="gallery-card gallery-card--large">
-      <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/Robot_cropped.jpg' | relative_url }}" alt="Robot platform used in multi-robot thesis experiments">
-      <figcaption>Radar-equipped robot platform used in the multi-robot perception pipeline.</figcaption>
-    </figure>
-    <figure class="gallery-card">
-      <img src="{{ '/assets/FERN/FERN_EE.jpg' | relative_url }}" alt="Formula Electric Racing NUST electrical work">
-      <figcaption>Formula Electric Racing NUST electrical subsystem work.</figcaption>
-    </figure>
-    <figure class="gallery-card">
-      <img src="{{ '/assets/NUST%20Airworks/18-06-19%20-%20Set-4%20-192.jpg' | relative_url }}" alt="NUST AirWorks competition photo">
-      <figcaption>NUST AirWorks field competition environment.</figcaption>
-    </figure>
-    <figure class="gallery-card">
-      <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/Pictures/results/planned_trajectories.png' | relative_url }}" alt="Navigation validation trajectories">
-      <figcaption>Navigation results from semantic costmap validation experiments.</figcaption>
-    </figure>
-  </div>
-
-  <p class="section-link"><a href="{{ '/media/' | relative_url }}">Open the media page for more visuals and references.</a></p>
 </section>
 
 <section id="contact" class="cta-panel">
   <div>
     <p class="eyebrow">Contact</p>
-    <h2>Looking for a robotics or autonomy role where practical engineering matters.</h2>
-    <p>I am most valuable in teams building perception, navigation, embedded integration, or system validation for real deployment environments.</p>
+    <h2>Available for robotics and autonomy software roles in Germany.</h2>
+    <p>Best fit: perception pipelines, embedded integration, and deployment-focused validation in real operating environments.</p>
   </div>
   <div class="cta-actions">
-    <a class="btn btn--primary" href="mailto:durraniasfand@hotmail.com">Email me</a>
+    <a class="btn btn--primary" href="mailto:durraniasfand@hotmail.com">Email</a>
     <a class="btn" href="https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani">LinkedIn</a>
     <a class="btn" href="https://github.com/Asfy59">GitHub</a>
   </div>
