@@ -19,7 +19,7 @@ I build ROS2-based robotics pipelines across sensing, inference, and real-time o
 - **~50 ms** sensing-to-costmap latency
 - **IEEE IECON 2025** co-authored publication
 
-## Selected Projects
+## Featured Work
 
 ### Multi-Robot Semantic Obstacle Avoidance
 
@@ -63,7 +63,7 @@ Embedded vision and telemetry for competition-grade autonomous UAV deployment.
 
 [Read case study]({{ '/projects/#autonomous-uav-vision-and-telemetry-pipeline' | relative_url }})
 
-## Core Strengths
+## Engineering Strengths
 
 - **Perception to planning integration:** robust ROS2 pipelines connecting sensing, inference, and navigation
 - **Embedded and protocol-level debugging:** practical bring-up and interface troubleshooting on constrained systems
@@ -72,15 +72,28 @@ Embedded vision and telemetry for competition-grade autonomous UAV deployment.
 
 ## Experience Snapshot
 
-- **TU Dortmund** - robotics research and thesis on multi-robot semantic obstacle avoidance
-- **Bosch Sensortec** - embedded validation automation and I3C toolkit development
-- **VMT** - model-based control simulation for industrial tunnel boring systems
-- **K-Electric / analytics roles** - operational rigor, KPI frameworks, and automation discipline
+### Environments where I have built and validated systems.
+
+### TU Dortmund
+Robotics research focused on multi-robot perception, ROS2 integration, and deployment-oriented validation.
+
+### Bosch Sensortec
+Embedded validation and interface tooling for MEMS sensor testing, disturbance injection, and I3C communication.
+
+### VMT
+Industrial engineering exposure around applied automation and real-world system constraints.
 
 ## Publications and Dataset
 
-- [IEEE IECON 2025 paper (DOI)](https://doi.org/10.1109/IECON58223.2025.11221930)
-- [RoboFuse GNN dataset on Kaggle](https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset)
+### Research output tied to real system development.
+
+### IEEE IECON 2025
+Uncertainty-Aware GNN for Collaborative Robot Mapping Towards 6G-Enabled Smart Warehouses.  
+[DOI](https://doi.org/10.1109/IECON58223.2025.11221930)
+
+### RoboFUSE GNN Dataset
+Public radar-based graph dataset for collaborative robot perception experiments.  
+[Kaggle dataset](https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset)
 
 ## Contact {#contact}
 
