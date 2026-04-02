@@ -8,7 +8,7 @@ url: "https://asfy59.github.io"
 baseurl: "/portfolio"
 repository: "Asfy59/portfolio"
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 
 plugins:
   - jekyll-include-cache
@@ -20,7 +20,7 @@ plugins:
 author:
   name: "Muhammad Asfandyar Khan"
   avatar: "/assets/images/profile/profile.jpg"
-  bio: "Robotics and embedded software engineer building real-time multi-sensor perception and autonomy systems."
+  bio: "Robotics and embedded software engineer focused on multi-robot perception, UAV integration, and real-time autonomy systems."
   location: "Konstanz, Germany"
   links:
     - label: "GitHub"
@@ -55,6 +55,3 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani"
-
-footer_scripts:
-  - /assets/js/theme-toggle.js

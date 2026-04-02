@@ -6,163 +6,86 @@ author_profile: false
 classes: wide
 ---
 
-<section id="top" class="landing-hero">
-  <div class="hero-copy">
-    <p class="eyebrow">Robotics and Embedded Software Engineer</p>
-    <h1>Perception and autonomy engineering for real robots.</h1>
-    <p class="hero-summary">I design and integrate ROS2 pipelines across sensing, inference, and navigation with a strong focus on reliability, latency, and field-ready behavior.</p>
-    <div class="hero-actions">
-      <a class="btn btn--primary" href="#featured-work">View flagship work</a>
-      <a class="btn" href="{{ '/resume/' | relative_url }}">Resume</a>
-      <a class="btn" href="#contact">Contact</a>
-    </div>
-    <div class="hero-meta">
-      <span>Konstanz, Germany</span>
-      <span>TU Dortmund, M.Sc. Automation and Robotics</span>
-      <span>Open to robotics and autonomy roles</span>
-    </div>
-  </div>
-  <div class="hero-visual">
-    <figure class="portrait-frame">
-      <img src="{{ '/assets/images/profile/profile.jpg' | relative_url }}" alt="Portrait of Muhammad Asfandyar Khan">
-    </figure>
-    <div class="hero-proof">
-      <article>
-        <strong>63k+</strong>
-        <span>labeled radar graph frames</span>
-      </article>
-      <article>
-        <strong>50 ms</strong>
-        <span>sensing-to-costmap update latency</span>
-      </article>
-      <article>
-        <strong>IEEE IECON 2025</strong>
-        <span>co-authored publication</span>
-      </article>
-    </div>
-  </div>
-</section>
+# Robotics software engineer building perception-to-navigation systems
 
-<section class="signal-strip">
-  <div class="signal-chip">ROS2</div>
-  <div class="signal-chip">Jetson</div>
-  <div class="signal-chip">Radar Perception</div>
-  <div class="signal-chip">Sensor Fusion</div>
-  <div class="signal-chip">Nav2 Integration</div>
-  <div class="signal-chip">C++ and Python</div>
-  <div class="signal-chip">Embedded Validation</div>
-  <div class="signal-chip">System Debugging</div>
-</section>
+I build ROS2-based robotics pipelines across sensing, inference, and real-time obstacle avoidance, with hands-on experience in radar, embedded systems, and deployment-focused validation.
 
-<section id="featured-work" class="section-panel">
-  <div class="section-heading">
-    <p class="eyebrow">Featured Work</p>
-    <h2>Three projects that best represent my engineering profile.</h2>
-    <p>These highlight end-to-end systems thinking, hands-on integration, and measurable outcomes under practical constraints.</p>
-  </div>
+[View Projects](/projects/){: .btn .btn--primary }
+[Download Resume](/resume/){: .btn .btn--info }
 
-  <div class="featured-grid">
-    <article class="showcase-card showcase-card--wide">
-      <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }}" alt="Warehouse-inspired cyber-physical production system scenario">
-      <div class="showcase-body">
-        <p class="card-kicker">Master's Thesis at TU Dortmund</p>
-        <h3>Multi-Robot Semantic Obstacle Avoidance</h3>
-        <p>Built a ROS2 perception-to-navigation pipeline using TI radar, graph construction, GNN inference, tracking, and a custom Nav2 semantic costmap layer.</p>
-        <ul class="inline-list">
-          <li>63k+ synchronized graph frames</li>
-          <li>about 50 ms end-to-end latency</li>
-          <li>hardware-in-the-loop validation</li>
-        </ul>
-      </div>
-    </article>
+[LinkedIn](https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani) · [GitHub](https://github.com/Asfy59) · [Email](mailto:durraniasfand@hotmail.com)
 
-    <article class="showcase-card">
-      <img src="{{ '/assets/FERN/FERN_GROUP.jpg' | relative_url }}" alt="Formula Electric Racing NUST team photo">
-      <div class="showcase-body">
-        <p class="card-kicker">Formula Student, FERN</p>
-        <h3>Accumulator and EV Subsystem Integration</h3>
-        <p>Worked on accumulator packaging, harness interfaces, and subsystem-level integration in a deadline-driven motorsport engineering environment.</p>
-      </div>
-    </article>
+- **63k+** labeled radar graph frames
+- **~50 ms** sensing-to-costmap latency
+- **IEEE IECON 2025** co-authored publication
 
-    <article class="showcase-card">
-      <img src="{{ '/assets/NUST%20Airworks/17-06-19%20-%20Set-4%20-233.jpg' | relative_url }}" alt="NUST AirWorks field team photo">
-      <div class="showcase-body">
-        <p class="card-kicker">NUST AirWorks</p>
-        <h3>Autonomous UAV Vision and Telemetry</h3>
-        <p>Built embedded vision and telemetry workflows on Jetson Nano and Raspberry Pi, contributing to a Grand Champion result in the IMechE UAS Challenge.</p>
-      </div>
-    </article>
-  </div>
+## Selected Projects
 
-  <p class="section-link"><a href="{{ '/projects/' | relative_url }}">Open full projects and technical details.</a></p>
-</section>
+### Multi-Robot Semantic Obstacle Avoidance
 
-<section id="strengths" class="section-panel section-panel--muted">
-  <div class="section-heading">
-    <p class="eyebrow">Engineering Strengths</p>
-    <h2>Where I add value on robotics teams.</h2>
-  </div>
+![Multi-robot warehouse system placeholder]({{ '/assets/images/projects/placeholder-warehouse.jpg' | relative_url }})
 
-  <div class="capability-grid">
-    <article class="capability-card">
-      <h3>Perception to planning integration</h3>
-      <p>Connecting sensing, inference, and navigation through robust ROS2 interfaces and testable data flow boundaries.</p>
-    </article>
-    <article class="capability-card">
-      <h3>Embedded and protocol-level work</h3>
-      <p>Hands-on bring-up, hardware-software debugging, and protocol integration across Jetson and STM32-based systems.</p>
-    </article>
-    <article class="capability-card">
-      <h3>Applied ML under system constraints</h3>
-      <p>Deploying models with attention to latency, synchronization quality, and deployment realism instead of benchmark-only metrics.</p>
-    </article>
-    <article class="capability-card">
-      <h3>Execution across research and industry</h3>
-      <p>Clear delivery habits built across academic labs, startups, and larger organizations with measurable outcomes.</p>
-    </article>
-  </div>
-</section>
+Radar-driven multi-robot perception and planning integration in a warehouse-inspired CPPS setting.
 
-<section id="journey" class="section-panel">
-  <div class="section-heading">
-    <p class="eyebrow">Journey</p>
-    <h2>Focused progression toward harder robotics problems.</h2>
-  </div>
+- Built end-to-end ROS2 pipeline from radar graph construction to semantic Nav2 costmap updates
+- Integrated GNN inference and object tracking for real-time obstacle handling
+- Validated in hardware-in-the-loop system tests
 
-  <div class="timeline-band">
-    <article class="timeline-entry">
-      <span class="timeline-year">2016-2020</span>
-      <h3>NUST foundation</h3>
-      <p>Electrical engineering, Formula Student, and AirWorks competition systems.</p>
-    </article>
-    <article class="timeline-entry">
-      <span class="timeline-year">2020-2022</span>
-      <h3>Industry operations discipline</h3>
-      <p>Analytics and automation work that strengthened delivery rigor and stakeholder execution.</p>
-    </article>
-    <article class="timeline-entry">
-      <span class="timeline-year">2022-2025</span>
-      <h3>Germany technical reset</h3>
-      <p>Master's work at TU Dortmund plus embedded and controls experience at Bosch and VMT.</p>
-    </article>
-    <article class="timeline-entry">
-      <span class="timeline-year">2025-Now</span>
-      <h3>Research to deployment</h3>
-      <p>Publication-backed thesis systems and practical embedded vision integration in industry contexts.</p>
-    </article>
-  </div>
-</section>
+**Stack:** ROS2, PyTorch Geometric, Jetson Orin, TI IWR6843, Vicon, C++, Python
 
-<section id="contact" class="cta-panel">
-  <div>
-    <p class="eyebrow">Contact</p>
-    <h2>Available for robotics and autonomy software roles in Germany.</h2>
-    <p>Best fit: perception pipelines, embedded integration, and deployment-focused validation in real operating environments.</p>
-  </div>
-  <div class="cta-actions">
-    <a class="btn btn--primary" href="mailto:durraniasfand@hotmail.com">Email</a>
-    <a class="btn" href="https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani">LinkedIn</a>
-    <a class="btn" href="https://github.com/Asfy59">GitHub</a>
-  </div>
-</section>
+[Read case study]({{ '/projects/#multi-robot-semantic-obstacle-avoidance-framework' | relative_url }})
+
+### MEMS Sensor Automation and I3C Validation Toolkit
+
+![Bosch automation placeholder]({{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }})
+
+Embedded validation tooling for high-throughput, repeatable sensor testing workflows.
+
+- Built Python automation for disturbance-injection and serial orchestration
+- Authored reusable STM32-targeted C APIs for Bosch I3C communication
+- Reduced validation cycle time by about 50%
+
+**Stack:** Python, C, STM32, I3C, serial tooling
+
+[Read case study]({{ '/projects/#mems-sensor-automation-and-i3c-validation-toolkit' | relative_url }})
+
+### Autonomous UAV Vision and Telemetry
+
+![UAV competition placeholder]({{ '/assets/images/projects/placeholder-uav.jpg' | relative_url }})
+
+Embedded vision and telemetry for competition-grade autonomous UAV deployment.
+
+- Built onboard object recognition workflows on Jetson Nano and Raspberry Pi
+- Integrated telemetry and mission-level signal handling under field constraints
+- Contributed to an IMechE UAS Grand Champion campaign
+
+**Stack:** OpenCV, Keras, Jetson Nano, Raspberry Pi, LoRa
+
+[Read case study]({{ '/projects/#autonomous-uav-vision-and-telemetry-pipeline' | relative_url }})
+
+## Core Strengths
+
+- **Perception to planning integration:** robust ROS2 pipelines connecting sensing, inference, and navigation
+- **Embedded and protocol-level debugging:** practical bring-up and interface troubleshooting on constrained systems
+- **Applied ML under latency constraints:** deployable models, not benchmark-only prototypes
+- **Research-to-deployment translation:** turning lab systems into field-relevant engineering
+
+## Experience Snapshot
+
+- **TU Dortmund** - robotics research and thesis on multi-robot semantic obstacle avoidance
+- **Bosch Sensortec** - embedded validation automation and I3C toolkit development
+- **VMT** - model-based control simulation for industrial tunnel boring systems
+- **K-Electric / analytics roles** - operational rigor, KPI frameworks, and automation discipline
+
+## Publications and Dataset
+
+- [IEEE IECON 2025 paper (DOI)](https://doi.org/10.1109/IECON58223.2025.11221930)
+- [RoboFuse GNN dataset on Kaggle](https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset)
+
+## Contact {#contact}
+
+Open to robotics, autonomy, and embedded AI opportunities.
+
+- Email: [durraniasfand@hotmail.com](mailto:durraniasfand@hotmail.com)
+- LinkedIn: [muhammad-asfandyar-khan-durrani](https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani)
+- GitHub: [Asfy59](https://github.com/Asfy59)

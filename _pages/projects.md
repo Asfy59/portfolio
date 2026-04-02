@@ -4,79 +4,146 @@ permalink: /projects/
 classes: wide
 ---
 
-<section class="section-panel">
-  <div class="section-heading">
-    <p class="eyebrow">Projects</p>
-    <h1>Selected engineering work</h1>
-    <p>The common pattern across these projects is systems integration under constraints: limited sensing, hard interfaces, experimental noise, and the need to make each stage observable and debuggable.</p>
-  </div>
-</section>
+## Multi-Robot Semantic Obstacle Avoidance Framework
 
-<section class="case-study-grid">
-  <article class="case-study-card">
-    <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }}" alt="Warehouse scenario for multi-robot thesis work">
-    <div class="case-study-body">
-      <p class="card-kicker">2025 · TU Dortmund</p>
-      <h2>Multi-Robot Semantic Obstacle Avoidance Framework</h2>
-      <p>Built an end-to-end ROS2 perception-to-planning pipeline for smart-warehouse navigation using multi-robot radar sensing, graph construction, GNN inference, tracking, and a custom semantic Nav2 costmap layer.</p>
-      <ul class="inline-list">
-        <li>63k+ labeled radar graph frames</li>
-        <li>about 50 ms sensing-to-costmap latency</li>
-        <li>hardware-in-the-loop validation</li>
-      </ul>
-      <p><strong>Stack:</strong> ROS2, PyTorch Geometric, Jetson Orin, TI IWR6843, Vicon, C++, Python.</p>
-      <p><strong>Links:</strong> <a href="https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset">Kaggle dataset</a>, <a href="https://github.com/FLW-TUDO/ROS2_GNN_Edge">ROS2_GNN_Edge</a>, <a href="https://github.com/FLW-TUDO/ROS2_GNN_Robomaster">ROS2_GNN_Robomaster</a>.</p>
-    </div>
-  </article>
+![Warehouse project placeholder]({{ '/assets/images/projects/placeholder-warehouse.jpg' | relative_url }})
 
-  <article class="case-study-card">
-    <img src="{{ '/assets/FERN/FERN_GROUP.jpg' | relative_url }}" alt="Formula Electric Racing NUST team">
-    <div class="case-study-body">
-      <p class="card-kicker">2017-2020 · Formula Electric Racing NUST</p>
-      <h2>Accumulator and EV Subsystem Integration</h2>
-      <p>Worked on accumulator design and assembly with attention to packaging, harness layout, thermal considerations, safety-driven interfaces, and practical subsystem integration under competition deadlines.</p>
-      <p><strong>What it built:</strong> discipline around hardware constraints, team execution, and iterative debugging in a motorsport environment.</p>
-    </div>
-  </article>
+**Context**  
+Smart-warehouse multi-robot navigation using shared radar perception and ROS2 integration.
 
-  <article class="case-study-card">
-    <img src="{{ '/assets/NUST%20Airworks/17-06-19%20-%20Set-4%20-233.jpg' | relative_url }}" alt="NUST AirWorks field team">
-    <div class="case-study-body">
-      <p class="card-kicker">2019 · NUST AirWorks</p>
-      <h2>Autonomous UAV Vision and Telemetry Pipeline</h2>
-      <p>Built onboard visual recognition and telemetry workflows on Jetson Nano and Raspberry Pi, then supported deployment under difficult field conditions during the IMechE UAS Challenge campaign.</p>
-      <p><strong>Stack:</strong> OpenCV, Keras, Jetson Nano, Raspberry Pi, LoRa.</p>
-      <p><strong>Result:</strong> contributed to NUST AirWorks' Grand Champion finish in the UK competition.</p>
-    </div>
-  </article>
+**What I built**  
+An end-to-end perception-to-planning pipeline using radar graph construction, GNN inference, object tracking, and a custom Nav2 semantic costmap layer.
 
-  <article class="case-study-card">
-    <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/GNN_arc.png' | relative_url }}" alt="Graph neural network architecture">
-    <div class="case-study-body">
-      <p class="card-kicker">2025 · Research Output</p>
-      <h2>Uncertainty-Aware GNN for Collaborative Robot Mapping</h2>
-      <p>Converted radar detections into graph-based semantic reasoning and co-authored the resulting paper presented at IEEE IECON 2025.</p>
-      <p><strong>Publication:</strong> "Uncertainty-Aware GNN for Collaborative Robot Mapping Towards 6G-Enabled Smart Warehouses."</p>
-      <p><strong>DOI:</strong> <a href="https://doi.org/10.1109/IECON58223.2025.11221930">10.1109/IECON58223.2025.11221930</a></p>
-    </div>
-  </article>
+**Why it mattered**  
+Improved real-time obstacle awareness under sensing and synchronization constraints in a collaborative robotics setting.
 
-  <article class="case-study-card">
-    <div class="case-study-body">
-      <p class="card-kicker">2023 · Bosch Sensortec</p>
-      <h2>MEMS Sensor Automation and I3C Validation Toolkit</h2>
-      <p>Designed Python-based validation tooling for automated disturbance injection and serial orchestration, then wrote an STM32-focused C API for Bosch I3C sensor communication across variants.</p>
-      <p><strong>Impact:</strong> cut internal validation cycle time by about 50 percent while improving repeatability in testing and debugging workflows.</p>
-      <p><strong>Stack:</strong> Python, C, STM32, I3C, serial tooling.</p>
-    </div>
-  </article>
+**Impact**
+- **63k+** labeled radar graph frames
+- **~50 ms** sensing-to-costmap latency
+- Hardware-in-the-loop validation
 
-  <article class="case-study-card">
-    <div class="case-study-body">
-      <p class="card-kicker">2024 · TU Dortmund project work</p>
-      <h2>NeRF Dataset Generation in CARLA</h2>
-      <p>Developed a modular pipeline in CARLA for photorealistic multi-view data generation, using agent-based scene creation to support scalable perception experiments and future scenario extensions.</p>
-      <p><strong>Stack:</strong> CARLA, Python.</p>
-    </div>
-  </article>
-</section>
+**Stack**  
+ROS2, PyTorch Geometric, Jetson Orin, TI IWR6843, Vicon, C++, Python
+
+**Links**  
+[Kaggle dataset](https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset) · [Edge repo](https://github.com/FLW-TUDO/ROS2_GNN_Edge) · [Robot repo](https://github.com/FLW-TUDO/ROS2_GNN_Robomaster)
+
+## MEMS Sensor Automation and I3C Validation Toolkit
+
+![Bosch project placeholder]({{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }})
+
+**Context**  
+Internal embedded validation workflows for MEMS sensor robustness and communication testing.
+
+**What I built**  
+A Python automation toolchain for disturbance-injection test orchestration and a reusable C API for STM32-targeted I3C sensor communication.
+
+**Why it mattered**  
+Increased repeatability, reduced manual setup overhead, and improved reliability of outbound validation checks.
+
+**Impact**
+- **~50%** validation cycle-time reduction
+- Reusable API across multiple sensor variants
+- Batch-friendly automated test workflows
+
+**Stack**  
+Python, C, STM32, I3C, serial tooling
+
+**Links**  
+Project details available on request.
+
+## Autonomous UAV Vision and Telemetry Pipeline
+
+![UAV project placeholder]({{ '/assets/images/projects/placeholder-uav.jpg' | relative_url }})
+
+**Context**  
+Competition-driven UAV autonomy stack requiring real-time sensing and dependable telemetry under field conditions.
+
+**What I built**  
+Onboard visual recognition and classification workflows with embedded deployment on Jetson Nano and Raspberry Pi, integrated with mission telemetry handling.
+
+**Why it mattered**  
+Enabled reliable, iteratively testable system behavior under competition timelines and operating constraints.
+
+**Impact**
+- Real-time embedded detection pipeline
+- Field-tested mission workflows
+- Contribution to Grand Champion campaign
+
+**Stack**  
+OpenCV, Keras, Jetson Nano, Raspberry Pi, LoRa
+
+**Links**  
+Supporting visuals and media on [Media page]({{ '/media/' | relative_url }}).
+
+## Accumulator and EV Subsystem Integration
+
+![Formula project placeholder]({{ '/assets/images/projects/placeholder-formula.jpg' | relative_url }})
+
+**Context**  
+Formula Student EV development requiring cross-team coordination, packaging constraints, and subsystem-level interface discipline.
+
+**What I built**  
+Contributions to accumulator integration tasks including packaging constraints, harness interfaces, and practical electrical-mechanical subsystem coordination.
+
+**Why it mattered**  
+Built execution discipline in high-pressure engineering workflows where iteration speed and reliability both matter.
+
+**Impact**
+- Practical subsystem integration experience
+- Safety-conscious design considerations
+- Faster debugging cycles in deadline-driven team environments
+
+**Stack**  
+EV subsystem integration, harness interfaces, test-and-iterate workflows
+
+**Links**  
+Supporting visuals on [Media page]({{ '/media/' | relative_url }}).
+
+## Uncertainty-Aware GNN for Collaborative Robot Mapping
+
+![Publication placeholder]({{ '/assets/images/projects/placeholder-paper.jpg' | relative_url }})
+
+**Context**  
+Collaborative robot mapping in a 6G-enabled smart warehouse context with uncertainty-aware semantic reasoning.
+
+**What I built**  
+Contributions to graph-based perception and semantic inference workflows and publication-backed experimental validation.
+
+**Why it mattered**  
+Strengthened technical credibility with peer-reviewed research output aligned with deployable robotics systems.
+
+**Impact**
+- IEEE IECON 2025 publication
+- Reproducible graph-learning workflow integration
+- Direct alignment with thesis and system pipeline work
+
+**Stack**  
+ROS2, graph learning, PyTorch Geometric, multi-robot sensing
+
+**Links**  
+[DOI](https://doi.org/10.1109/IECON58223.2025.11221930)
+
+## NeRF Dataset Generation in CARLA
+
+![CARLA project placeholder]({{ '/assets/images/projects/placeholder-carla.jpg' | relative_url }})
+
+**Context**  
+Synthetic perception dataset generation for scalable NeRF and multi-view robotics experimentation.
+
+**What I built**  
+A modular CARLA-based pipeline for automated scene generation and photorealistic multi-view data capture.
+
+**Why it mattered**  
+Reduced setup friction for repeatable synthetic data generation and future scenario expansion.
+
+**Impact**
+- Reusable dataset generation tooling
+- Scalable scene automation pipeline
+- Strong foundation for later perception experiments
+
+**Stack**  
+CARLA, Python
+
+**Links**  
+Project details available on request.
