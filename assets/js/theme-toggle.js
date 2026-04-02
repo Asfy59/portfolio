@@ -25,7 +25,7 @@
     } catch (e) {
       // no-op
     }
-    return 'dark';
+    return 'light';
   }
 
   function addToggleButton() {
@@ -37,7 +37,7 @@
     btn.className = 'theme-toggle';
     btn.type = 'button';
     btn.addEventListener('click', function () {
-      var current = root.getAttribute('data-theme') || 'dark';
+      var current = root.getAttribute('data-theme') || 'light';
       applyTheme(current === 'dark' ? 'light' : 'dark');
     });
     document.body.appendChild(btn);

@@ -1,38 +1,53 @@
 ---
 title: "Media"
 permalink: /media/
+classes: wide
 ---
 
-This page is your content hub for visuals, presentations, and downloadable material.
+<section class="section-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Media</p>
+    <h1>Visual archive</h1>
+    <p>A selection of images and references from thesis work, Formula Student, and NUST AirWorks. This page is meant to support the portfolio with real visual context rather than act as a file dump.</p>
+  </div>
+</section>
 
-## Folder Structure
+<section class="gallery-grid gallery-grid--media">
+  <figure class="gallery-card gallery-card--large">
+    <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }}" alt="CPPS warehouse scenario">
+    <figcaption>Warehouse-inspired CPPS scenario used in the thesis and research demonstrations.</figcaption>
+  </figure>
+  <figure class="gallery-card">
+    <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/Robot_b_cropped.jpg' | relative_url }}" alt="Robot platform">
+    <figcaption>Robot platform used for distributed sensing and graph construction experiments.</figcaption>
+  </figure>
+  <figure class="gallery-card">
+    <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/Pictures/results/planned_trajectories.png' | relative_url }}" alt="Planned trajectories">
+    <figcaption>Trajectory planning and behavior evaluation results from semantic costmap validation.</figcaption>
+  </figure>
+  <figure class="gallery-card">
+    <img src="{{ '/assets/FERN/FERN_GROUP.jpg' | relative_url }}" alt="FERN team">
+    <figcaption>Formula Electric Racing NUST team environment.</figcaption>
+  </figure>
+  <figure class="gallery-card">
+    <img src="{{ '/assets/FERN/Cell_Module.png' | relative_url }}" alt="FERN cell module">
+    <figcaption>Accumulator cell module work from FERN.</figcaption>
+  </figure>
+  <figure class="gallery-card">
+    <img src="{{ '/assets/NUST%20Airworks/17-06-19%20-%20Set-4%20-228.jpg' | relative_url }}" alt="NUST AirWorks">
+    <figcaption>AirWorks competition environment during field deployment.</figcaption>
+  </figure>
+</section>
 
-- Profile photos: `assets/images/profile/`
-- Project images and GIFs: `assets/images/projects/`
-- Experience and lab photos: `assets/images/experience/`
-- Publication figures: `assets/images/publications/`
-- Presentation files (PDF/PPTX): `assets/presentations/`
-- Reports and technical documents: `assets/docs/`
-- Certificates: `assets/certificates/`
-
-## Suggested Naming Convention
-
-Use lowercase kebab-case with dates for maintainability:
-
-- `project-radar-fusion-2025-01.png`
-- `iecon2025-presentation.pdf`
-- `bosch-internship-certificate.pdf`
-
-## Quick Link Examples
-
-Replace filenames with your real files after uploading.
-
-- [Master Thesis Slides](/assets/presentations/master-thesis-slides.pdf)
-- [IECON 2025 Paper](/assets/docs/iecon-2025-paper.pdf)
-- [Bosch Internship Certificate](/assets/certificates/bosch-internship.pdf)
-
-## Usage Tips
-
-- Keep project screenshots under 300-500 KB when possible.
-- Prefer PNG/WebP for diagrams and JPG for photos.
-- For videos, upload to YouTube/Vimeo and link them instead of storing large files in the repo.
+<section class="section-panel section-panel--muted">
+  <div class="section-heading">
+    <p class="eyebrow">References</p>
+    <h2>Supporting material</h2>
+  </div>
+  <ul class="resource-list">
+    <li><a href="{{ '/assets/FLW%20%28Thesis%29/IEEE_IECON_Sensors_Draft-1.pdf' | relative_url }}">IEEE IECON draft PDF</a></li>
+    <li><a href="https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset">RoboFuse GNN dataset on Kaggle</a></li>
+    <li><a href="https://github.com/FLW-TUDO/ROS2_GNN_Edge">ROS2_GNN_Edge</a></li>
+    <li><a href="https://github.com/FLW-TUDO/ROS2_GNN_Robomaster">ROS2_GNN_Robomaster</a></li>
+  </ul>
+</section>

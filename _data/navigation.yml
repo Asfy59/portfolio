@@ -1,17 +1,17 @@
 main:
   - title: "Home"
     url: /#top
+  - title: "Work"
+    url: /#featured-work
+  - title: "Strengths"
+    url: /#strengths
   - title: "Journey"
     url: /#journey
-  - title: "About"
-    url: /#about
-  - title: "Experience"
-    url: /#experience
-  - title: "Projects"
-    url: /#projects
-  - title: "Contact"
-    url: /#contact
+  - title: "Gallery"
+    url: /#gallery
   - title: "Media"
     url: /media/
+  - title: "Contact"
+    url: /#contact
   - title: "Resume"
     url: /resume/

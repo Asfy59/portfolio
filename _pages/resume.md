@@ -3,10 +3,11 @@ title: "Resume"
 permalink: /resume/
 ---
 
-You can view my resume using the link below.
+The PDF resume is not bundled in this repository yet.
 
-[Download Resume (PDF)](/assets/files/Asfand_Resume.pdf)
+For now, the fastest way to request it is through the contact links below:
 
-If the PDF is not available yet, add your file at:
+- Email: `durraniasfand@hotmail.com`
+- LinkedIn: [muhammad-asfandyar-khan-durrani](https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani)
 
-`assets/files/Asfand_Resume.pdf`
+Once a PDF is added at `assets/files/Asfand_Resume.pdf`, this page can link directly to it again.
