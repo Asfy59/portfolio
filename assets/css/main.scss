@@ -26,7 +26,7 @@
   --surface-soft: #212b37;
   --surface-strong: #1d2630;
   --text: #edf0f3;
-  --text-soft: #aab4bf;
+  --text-soft: #c2cad4;
   --line: rgba(231, 217, 202, 0.12);
   --line-strong: rgba(231, 217, 202, 0.2);
   --accent: #dd7b49;
@@ -45,12 +45,20 @@ body {
     radial-gradient(900px 520px at 100% 10%, rgba(35, 104, 121, 0.08), transparent 55%),
     linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 100%);
   color: var(--text);
+  font-size: clamp(1rem, 0.98rem + 0.12vw, 1.06rem);
   transition: background 0.25s ease, color 0.25s ease;
+}
+
+:root[data-theme="dark"] body {
+  background:
+    radial-gradient(820px 440px at 0% 0%, rgba(221, 123, 73, 0.16), transparent 60%),
+    radial-gradient(780px 420px at 100% 10%, rgba(84, 126, 160, 0.12), transparent 56%),
+    linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 100%);
 }
 
 .masthead,
 .page__footer {
-  background: rgba(250, 246, 239, 0.86);
+  background: color-mix(in srgb, var(--bg-soft) 88%, transparent);
   border-color: var(--line);
   backdrop-filter: blur(14px);
 }
@@ -77,7 +85,7 @@ body {
 }
 
 .page__content {
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 h1,
@@ -87,6 +95,7 @@ h4 {
   color: var(--text);
   line-height: 1.15;
   letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 
 p,
@@ -130,14 +139,15 @@ li {
 }
 
 .hero-copy h1 {
-  font-size: clamp(2.4rem, 5vw, 4.8rem);
-  max-width: 12ch;
+  font-size: clamp(2.05rem, 4.2vw, 4.2rem);
+  max-width: 16ch;
+  line-height: 1.07;
   margin: 0.3rem 0 1rem;
 }
 
 .hero-summary {
   max-width: 62ch;
-  font-size: 1.05rem;
+  font-size: 1.02rem;
 }
 
 .hero-actions {
@@ -156,7 +166,7 @@ li {
 .hero-meta span {
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.45);
+  background: color-mix(in srgb, var(--surface-strong) 72%, transparent);
   padding: 0.42rem 0.75rem;
   font-size: 0.88rem;
   color: var(--text);
@@ -396,14 +406,15 @@ li {
 .btn,
 .btn--primary {
   border-radius: 999px;
-  padding: 0.62rem 1rem;
+  padding: 0.65rem 1rem;
   font-weight: 600;
+  font-size: 0.92rem;
 }
 
 .btn {
   color: var(--text);
   border-color: var(--line-strong);
-  background: rgba(255, 255, 255, 0.4);
+  background: color-mix(in srgb, var(--surface-strong) 72%, transparent);
 }
 
 .btn--primary {
@@ -445,6 +456,76 @@ a:hover {
   color: var(--accent);
 }
 
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-card {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: color-mix(in srgb, var(--surface-strong) 80%, transparent);
+  padding: 1.05rem;
+}
+
+.info-card h3 {
+  margin: 0 0 0.55rem;
+}
+
+.info-card p {
+  margin: 0;
+}
+
+.experience-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.experience-item {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: color-mix(in srgb, var(--surface-strong) 82%, transparent);
+  padding: 1.2rem;
+}
+
+.experience-item h2 {
+  margin: 0;
+  font-size: clamp(1.16rem, 1rem + 0.6vw, 1.45rem);
+}
+
+.experience-meta {
+  margin: 0.35rem 0 0.85rem;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.compact-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.compact-list li + li {
+  margin-top: 0.4rem;
+}
+
+.journey-cards {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.journey-card {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 1.1rem;
+  background: color-mix(in srgb, var(--surface-strong) 80%, transparent);
+}
+
+.journey-card h3 {
+  margin: 0.35rem 0 0.55rem;
+}
+
 @media (max-width: 1100px) {
   .landing-hero,
   .cta-panel,
@@ -457,7 +538,8 @@ a:hover {
   .hero-proof,
   .featured-grid,
   .case-study-grid,
-  .capability-grid {
+  .capability-grid,
+  .info-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -484,16 +566,37 @@ a:hover {
 
   .hero-copy h1 {
     max-width: none;
-    font-size: 2.3rem;
+    font-size: clamp(1.9rem, 8.2vw, 2.35rem);
+    line-height: 1.1;
+  }
+
+  .hero-summary {
+    font-size: 0.98rem;
   }
 
   .hero-proof,
   .featured-grid,
   .case-study-grid,
   .capability-grid,
+  .info-grid,
   .gallery-grid,
   .gallery-grid--media {
     grid-template-columns: 1fr;
+  }
+
+  .hero-actions .btn,
+  .cta-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .signal-strip {
+    gap: 0.52rem;
+  }
+
+  .signal-chip {
+    font-size: 0.82rem;
+    padding: 0.43rem 0.72rem;
   }
 
   .showcase-card img,

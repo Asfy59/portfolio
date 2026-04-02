@@ -1,59 +1,83 @@
 ---
 title: "Experience"
 permalink: /experience/
+classes: wide
 ---
 
-## Professional Experience
+<section class="section-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Experience</p>
+    <h1>Engineering and research roles</h1>
+    <p>Focused on perception, embedded integration, and measurable system behavior under real constraints.</p>
+  </div>
+</section>
 
-### Embedded and Vision Software Engineer
-**HIGHCAT GmbH - Konstanz, Germany | Oct 2025 - Mar 2026**
+<section class="experience-list">
+  <article class="experience-item">
+    <h2>Embedded and Vision Software Engineer</h2>
+    <p class="experience-meta">HIGHCAT GmbH · Konstanz, Germany · Oct 2025 - Mar 2026</p>
+    <ul class="compact-list">
+      <li>Integrated camera and gimbal control workflows with MAVLink, VISCA, and SimpleBGC protocol bridges.</li>
+      <li>Built a reusable Python control API for repeatable hardware tests and faster debugging cycles.</li>
+      <li>Benchmarked real-time single-object tracking pipelines on Jetson Orin NX for accuracy-latency tradeoffs.</li>
+      <li>Handled edge bring-up work including Jetson flashing, CUDA/OpenCV setup, and GStreamer troubleshooting.</li>
+    </ul>
+    <p><strong>Tech:</strong> OpenCV, GStreamer, Jetson Orin NX, PX4, MAVLink, VISCA, SimpleBGC, Python.</p>
+  </article>
 
-- Integrated GNSS-denied localization components into an existing UAV autonomy stack and evaluated visual-inertial solution feasibility at integration level.
-- Built payload control pathways across MAVLink, VISCA, and SimpleBGC for camera and gimbal actuation.
-- Implemented a Python API and command bridge for repeatable camera/gimbal control and protocol-level debugging.
-- Benchmarked Jetson Orin NX tracking pipelines (CSRT, KCF, optical flow, NVIDIA utilities) for latency-accuracy tradeoff analysis.
-- Supported edge deployment and bring-up (Jetson flashing, CUDA/OpenCV setup, GStreamer troubleshooting).
+  <article class="experience-item">
+    <h2>Student Research Assistant and Master's Thesis</h2>
+    <p class="experience-meta">Chair of Material Handling, TU Dortmund · Jan 2025 - Sep 2025</p>
+    <ul class="compact-list">
+      <li>Built an end-to-end ROS2 multi-robot perception pipeline using TI IWR6843 radar, Jetson, and Vicon streams.</li>
+      <li>Created a 63k+ frame radar graph dataset and published it on Kaggle.</li>
+      <li>Implemented graph construction, PyTorch Geometric inference, object tracking, and semantic obstacle publishing.</li>
+      <li>Developed a custom Nav2 costmap layer (`GNNObjectsLayer`) for class-aware semantic obstacle integration.</li>
+      <li>Validated the full perception-to-planning loop in hardware-in-the-loop trials with about 50 ms end-to-end latency.</li>
+      <li>Co-authored IEEE IECON 2025 paper: DOI <a href="https://doi.org/10.1109/IECON58223.2025.11221930">10.1109/IECON58223.2025.11221930</a>.</li>
+    </ul>
+    <p><strong>Tech:</strong> ROS2 Humble, PyTorch Geometric, Jetson Orin, TI IWR6843, Vicon, zenoh, C++, Python, Nav2.</p>
+  </article>
 
-### Student Research Assistant and Master's Thesis
-**Chair of Material Handling, TU Dortmund - Dortmund, Germany | 2025**
+  <article class="experience-item">
+    <h2>Working Student, Autonomous Tunnel Boring Systems</h2>
+    <p class="experience-meta">VMT GmbH · Germany · Feb 2024 - Aug 2024</p>
+    <ul class="compact-list">
+      <li>Built a baseline MPC framework for tunnel boring machine steering simulation.</li>
+      <li>Developed prediction and cost models to evaluate correction behavior and control horizon tradeoffs.</li>
+      <li>Generated and analyzed response datasets for model estimation under industrial constraints.</li>
+    </ul>
+  </article>
 
-Thesis: Development of an Obstacle Avoidance Framework through Multi-Robot Perception
+  <article class="experience-item">
+    <h2>Embedded Systems and Sensor Validation Intern</h2>
+    <p class="experience-meta">Bosch Sensortec GmbH · Reutlingen, Germany · Jun 2023 - Nov 2023</p>
+    <ul class="compact-list">
+      <li>Built Python automation tooling for MEMS sensor robustness validation with disturbance injection workflows.</li>
+      <li>Authored reusable STM32-targeted C APIs for Bosch I3C sensor communication.</li>
+      <li>Reduced validation cycle time by about 50 percent through batch execution and reduced manual setup overhead.</li>
+    </ul>
+    <p><strong>Tech:</strong> Python, C, STM32, I3C, serial tooling.</p>
+  </article>
 
-- Designed and deployed a radar-based semantic perception pipeline for multi-robot navigation in a warehouse-inspired CPPS testbed.
-- Built distributed ROS2 sensing with TI AWR1843 radars, Jetson Nano/Orin, and Vicon MoCap.
-- Implemented centralized fusion in a custom `data_merger_node` with synchronization, map-frame transformation, temporal buffering, and k-NN graph construction.
-- Achieved ~20 ms fusion latency and 10-15 ms GNN inference latency on 63k+ labeled graph frames.
-- Reached F1 scores of 0.91 (node classification) and 0.98 (edge classification).
-- Built a class-aware ROS2 costmap plugin (`GNNObjectsLayer`) for semantic obstacle handling, yielding ~50 ms sensing-to-costmap updates.
-- Validated full perception-to-planning pipeline in hardware-in-the-loop trials and multi-robot demonstrations.
-- Co-authored IEEE IECON 2025 publication (DOI: 10.1109/IECON58223.2025.11221930).
+  <article class="experience-item">
+    <h2>Data and Analytics Roles</h2>
+    <p class="experience-meta">K-Electric, Dastgyr, SquareTrade · Karachi, Pakistan · 2020 - 2022</p>
+    <ul class="compact-list">
+      <li>Automated recurring reporting and KPI workflows using SQL and Python.</li>
+      <li>Built dashboards and operational analytics pipelines across BI tools and ELT stacks.</li>
+      <li>Worked closely with business teams to convert operational pain points into measurable metrics and decision support.</li>
+    </ul>
+    <p><strong>Tech:</strong> SQL, Python, Tableau, Metabase, BigQuery, PostgreSQL, dbt.</p>
+  </article>
 
-### Working Student, Autonomous Tunnel Boring Systems
-**VMT GmbH - Germany | Feb 2024 - Aug 2024**
-
-- Developed a baseline MPC steering framework for tunnel boring machine alignment.
-- Simulated control response using Python and proprietary tools to evaluate horizon and tuning effects.
-- Generated and analyzed input-response datasets for kinematic and dynamic model estimation.
-
-### Embedded Systems and Sensor Validation Intern
-**Bosch Sensortec GmbH - Reutlingen, Germany | Jun 2023 - Nov 2023**
-
-- Built a Python automation framework for MEMS inertial sensor validation over serial interfaces.
-- Integrated analyzers/function generators for controlled disturbance injection (spikes, jitter, noise).
-- Authored a reusable C-based I3C API for STM32 platforms across Bosch sensor variants.
-- Reduced validation cycle time by approximately 50% via automation and batch execution.
-
-### Data and Analytics Roles
-**K-Electric, Dastagyr, SquareTrade (via ibex) | Aug 2020 - May 2022**
-
-- Started in K-Electric's trainee program (GIS), then transitioned to data analytics and permanent BI-focused delivery.
-- Built Python/SQL automation for reporting pipelines and operational insights.
-- Worked with cross-functional stakeholders on KPI dashboards, operational requests, and process improvements.
-- Delivered in corporate and startup contexts using tools such as Tableau, Metabase, and ticket-driven workflow systems.
-
-### Student Engineering Teams
-**Formula Electric Racing NUST, NUST Airworks | 2017 - 2020**
-
-- Contributed to Formula Student EV accumulator integration and safety-critical subsystem planning.
-- Built embedded UAV vision and telemetry pipelines with OpenCV/Keras on Jetson Nano and Raspberry Pi.
-- Participated in IMECHE UAS Challenge deployment and contributed to Grand Champion results.
+  <article class="experience-item">
+    <h2>Student Engineering Teams</h2>
+    <p class="experience-meta">Formula Electric Racing NUST and NUST AirWorks · 2017 - 2020</p>
+    <ul class="compact-list">
+      <li>Contributed to Formula Student EV system work including accumulator and subsystem integration tasks.</li>
+      <li>Built UAV vision and telemetry pipelines on Jetson Nano and Raspberry Pi under competition deadlines.</li>
+      <li>Contributed to NUST AirWorks Grand Champion result at the IMechE UAS Challenge in the UK.</li>
+    </ul>
+  </article>
+</section>
