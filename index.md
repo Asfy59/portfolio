@@ -25,7 +25,7 @@ I build ROS2-based robotics pipelines across sensing, inference, and real-time o
 
 ### Multi-Robot Semantic Obstacle Avoidance
 
-![Multi-robot warehouse system]({{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }})
+![Multi-robot warehouse system]({{ '/assets/images/projects/placeholder-warehouse.jpg' | relative_url }})
 
 Radar-driven multi-robot perception and planning integration in a warehouse-inspired CPPS setting.
 
@@ -91,7 +91,11 @@ Industrial engineering exposure around applied automation and real-world system 
 
 ### IEEE IECON 2025
 Uncertainty-Aware GNN for Collaborative Robot Mapping Towards 6G-Enabled Smart Warehouses.  
-[DOI](https://doi.org/10.1109/IECON58223.2025.11221930)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11221930)
+
+### Kalman Filter Publication
+Multi-object tracking and filtering work using Kalman filter methods in autonomous systems context.  
+[IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9073861)
 
 ### RoboFUSE GNN Dataset
 Public radar-based graph dataset for collaborative robot perception experiments.  

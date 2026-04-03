@@ -14,7 +14,7 @@ classes: wide
 
 <section class="gallery-grid gallery-grid--media">
   <figure class="gallery-card gallery-card--large">
-    <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }}" alt="CPPS warehouse scenario">
+    <img src="{{ '/assets/images/projects/placeholder-warehouse.jpg' | relative_url }}" alt="CPPS warehouse scenario">
     <figcaption>Warehouse-inspired CPPS scenario used in the thesis and research demonstrations.</figcaption>
   </figure>
   <figure class="gallery-card">
@@ -45,7 +45,8 @@ classes: wide
     <h2>Supporting material</h2>
   </div>
   <ul class="resource-list">
-    <li><a href="{{ '/assets/FLW%20%28Thesis%29/IEEE_IECON_Sensors_Draft-1.pdf' | relative_url }}">IEEE IECON draft PDF</a></li>
+    <li><a href="https://ieeexplore.ieee.org/document/11221930">IEEE IECON 2025 publication</a></li>
+    <li><a href="https://ieeexplore.ieee.org/abstract/document/9073861">Kalman Filter publication</a></li>
     <li><a href="https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset">RoboFuse GNN dataset on Kaggle</a></li>
     <li><a href="https://github.com/FLW-TUDO/ROS2_GNN_Edge">ROS2_GNN_Edge</a></li>
     <li><a href="https://github.com/FLW-TUDO/ROS2_GNN_Robomaster">ROS2_GNN_Robomaster</a></li>
