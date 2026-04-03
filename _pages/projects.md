@@ -6,7 +6,7 @@ classes: wide
 
 ## Multi-Robot Semantic Obstacle Avoidance Framework
 
-![Warehouse project placeholder]({{ '/assets/images/projects/placeholder-warehouse.jpg' | relative_url }})
+![Warehouse project image]({{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }})
 
 **Context**  
 Smart-warehouse multi-robot navigation using shared radar perception and ROS2 integration.

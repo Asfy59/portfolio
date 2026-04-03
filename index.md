@@ -15,6 +15,8 @@ I build ROS2-based robotics pipelines across sensing, inference, and real-time o
 
 [LinkedIn](https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani) · [GitHub](https://github.com/Asfy59) · [Email](mailto:durraniasfand@hotmail.com)
 
+![Muhammad Asfandyar Khan portrait]({{ '/assets/images/profile/profile.jpg' | relative_url }}){: style="max-width: 240px;" }
+
 - **63k+** labeled radar graph frames
 - **~50 ms** sensing-to-costmap latency
 - **IEEE IECON 2025** co-authored publication
@@ -23,7 +25,7 @@ I build ROS2-based robotics pipelines across sensing, inference, and real-time o
 
 ### Multi-Robot Semantic Obstacle Avoidance
 
-![Multi-robot warehouse system placeholder]({{ '/assets/images/projects/placeholder-warehouse.jpg' | relative_url }})
+![Multi-robot warehouse system]({{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }})
 
 Radar-driven multi-robot perception and planning integration in a warehouse-inspired CPPS setting.
 
@@ -34,20 +36,6 @@ Radar-driven multi-robot perception and planning integration in a warehouse-insp
 **Stack:** ROS2, PyTorch Geometric, Jetson Orin, TI IWR6843, Vicon, C++, Python
 
 [Read case study]({{ '/projects/#multi-robot-semantic-obstacle-avoidance-framework' | relative_url }})
-
-### MEMS Sensor Automation and I3C Validation Toolkit
-
-![Bosch automation placeholder]({{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }})
-
-Embedded validation tooling for high-throughput, repeatable sensor testing workflows.
-
-- Built Python automation for disturbance-injection and serial orchestration
-- Authored reusable STM32-targeted C APIs for Bosch I3C communication
-- Reduced validation cycle time by about 50%
-
-**Stack:** Python, C, STM32, I3C, serial tooling
-
-[Read case study]({{ '/projects/#mems-sensor-automation-and-i3c-validation-toolkit' | relative_url }})
 
 ### Autonomous UAV Vision and Telemetry
 
@@ -62,6 +50,20 @@ Embedded vision and telemetry for competition-grade autonomous UAV deployment.
 **Stack:** OpenCV, Keras, Jetson Nano, Raspberry Pi, LoRa
 
 [Read case study]({{ '/projects/#autonomous-uav-vision-and-telemetry-pipeline' | relative_url }})
+
+### MEMS Sensor Automation and I3C Validation Toolkit
+
+![Bosch automation placeholder]({{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }})
+
+Embedded validation tooling for high-throughput, repeatable sensor testing workflows.
+
+- Built Python automation for disturbance-injection and serial orchestration
+- Authored reusable STM32-targeted C APIs for Bosch I3C communication
+- Reduced validation cycle time by about 50%
+
+**Stack:** Python, C, STM32, I3C, serial tooling
+
+[Read case study]({{ '/projects/#mems-sensor-automation-and-i3c-validation-toolkit' | relative_url }})
 
 ## Engineering Strengths
 
