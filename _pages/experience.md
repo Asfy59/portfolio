@@ -81,3 +81,33 @@ classes: wide
     </ul>
   </article>
 </section>
+
+<section class="section-panel education-section">
+  <div class="section-heading">
+    <p class="eyebrow">Education</p>
+    <h2>Academic background</h2>
+    <p>Graduate robotics work in Germany and bachelor-level systems projects in Pakistan.</p>
+  </div>
+</section>
+
+<section class="experience-list">
+  <article class="experience-item">
+    <h2>Master's Studies in Automation and Robotics</h2>
+    <p class="experience-meta">TU Dortmund University · Dortmund, Germany</p>
+    <ul class="compact-list">
+      <li>Master's thesis: <em>Development of an Obstacle Avoidance Framework through Multi-Robot Perception</em>.</li>
+      <li>Built the radar-based ROS2, GNN, and Nav2 integration stack documented in the detailed experience reference.</li>
+    </ul>
+  </article>
+
+  <article class="experience-item">
+    <h2>Bachelor's Final Year Project</h2>
+    <p class="experience-meta">PN Engineering College, PNS Jauhar · Karachi, Pakistan</p>
+    <ul class="compact-list">
+      <li><em>Design and Development of a Wall Traversing Robot for Inspection Purposes</em>.</li>
+      <li>Designed a modular robot for vertical and ceiling traversal using negative-thrust suction and four-wheel locomotion.</li>
+      <li>Targeted inspection, safety monitoring, and elevated-surface tasks where manual access is hazardous.</li>
+    </ul>
+    <p><strong>Links:</strong> <a href="{{ '/assets/Bacheelor_FinalYearProject/CDRB/TO_BE_PRINTED%5B1%5D.pdf' | relative_url }}">Project report</a> · <a href="{{ '/assets/Bacheelor_FinalYearProject/CDRB/fyp%20presentation.pptx' | relative_url }}">Presentation</a></p>
+  </article>
+</section>

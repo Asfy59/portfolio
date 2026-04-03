@@ -83,6 +83,33 @@ img {
   margin-top: 0.9rem;
 }
 
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  padding: 1.25rem 1.4rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.project-card h2 {
+  margin: 0 0 0.6rem;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.project-card p {
+  margin: 0;
+}
+
+.education-section {
+  margin-top: 3rem;
+}
+
 a.external-link::after {
   content: " ↗";
   font-size: 0.85em;
