@@ -6,20 +6,29 @@ author_profile: false
 classes: wide
 ---
 
-# Robotics software engineer building perception-to-navigation systems
-
-I build ROS2-based robotics pipelines across sensing, inference, and real-time obstacle avoidance, with hands-on experience in radar, embedded systems, and deployment-focused validation.
-
-[View Projects](/projects/){: .btn .btn--primary }
-[Download Resume](/resume/){: .btn .btn--info }
-
-[LinkedIn](https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani) · [GitHub](https://github.com/Asfy59) · [Email](mailto:durraniasfand@hotmail.com)
-
-![Muhammad Asfandyar Khan portrait]({{ '/assets/images/profile/profile.jpg' | relative_url }}){: style="max-width: 240px;" }
-
-- **63k+** labeled radar graph frames
-- **~50 ms** sensing-to-costmap latency
-- **IEEE IECON 2025** co-authored publication
+<section class="home-hero">
+  <div class="home-hero__media">
+    <img class="home-hero__avatar" src="{{ '/assets/images/profile/profile.jpg' | relative_url }}" alt="Muhammad Asfandyar Khan portrait">
+    <ul class="home-hero__proof">
+      <li><strong>63k+</strong> labeled radar graph frames</li>
+      <li><strong>~50 ms</strong> sensing-to-costmap latency</li>
+      <li><strong>IEEE IECON 2025</strong> co-authored publication</li>
+    </ul>
+  </div>
+  <div class="home-hero__content">
+    <h1>Robotics software engineer building perception-to-navigation systems</h1>
+    <p>I build ROS2-based robotics pipelines across sensing, inference, and real-time obstacle avoidance, with hands-on experience in radar, embedded systems, and deployment-focused validation.</p>
+    <p class="home-hero__actions">
+      <a class="btn btn--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
+      <a class="btn btn--info" href="{{ '/resume/' | relative_url }}">Download Resume</a>
+    </p>
+    <p class="home-hero__links">
+      <a href="https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani">LinkedIn</a> ·
+      <a href="https://github.com/Asfy59">GitHub</a> ·
+      <a href="mailto:durraniasfand@hotmail.com">Email</a>
+    </p>
+  </div>
+</section>
 
 ## Featured Work
 
