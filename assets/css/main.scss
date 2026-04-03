@@ -47,3 +47,13 @@ img {
 .author__avatar img {
   border-radius: 16px;
 }
+
+a.external-link::after {
+  content: " ↗";
+  font-size: 0.85em;
+  vertical-align: baseline;
+}
+
+a.external-link.btn::after {
+  content: "";
+}

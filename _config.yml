@@ -55,3 +55,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani"
+
+footer_scripts:
+  - /assets/js/external-links.js
