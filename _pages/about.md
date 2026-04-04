@@ -7,8 +7,8 @@ classes: wide
 <section class="section-panel">
   <div class="section-heading">
     <p class="eyebrow">About</p>
-    <h1>Robotics engineer focused on systems that work outside ideal lab conditions.</h1>
-    <p>I build across software, embedded interfaces, and field validation. The core pattern in my work is converting noisy real-world sensing into robust behavior that navigation and control stacks can trust.</p>
+    <h1>Robotics engineer with experience across research, embedded systems, and UAV integration.</h1>
+    <p>I have worked in a university robotics lab, an industrial sensor-validation team, and a UAV-focused startup environment. The common pattern across those roles is turning real hardware, noisy sensing, and integration constraints into systems that can be tested, measured, and trusted.</p>
   </div>
 </section>
 
@@ -20,19 +20,19 @@ classes: wide
   <div class="info-grid">
     <article class="info-card">
       <h3>Perception systems</h3>
-      <p>Multi-robot sensing, data fusion, graph-based semantic inference, and message-level integration with planning systems.</p>
+      <p>Radar-based multi-robot sensing, data fusion, graph-based semantic inference, object tracking, and Nav2-facing obstacle integration.</p>
     </article>
     <article class="info-card">
       <h3>Embedded integration</h3>
-      <p>Jetson and STM32 bring-up, protocol debugging, sensor interfaces, and practical system troubleshooting under deadlines.</p>
+      <p>Jetson and STM32 bring-up, sensor interfaces, and protocol-level work across MAVLink, VISCA, SimpleBGC, and I3C.</p>
     </article>
     <article class="info-card">
-      <h3>Applied AI with constraints</h3>
-      <p>ML workflows designed for latency, synchronization quality, and deployment reliability, not benchmark-only outcomes.</p>
+      <h3>Validation and tooling</h3>
+      <p>Hardware-in-the-loop validation, latency benchmarking, automation frameworks, and debugging workflows designed for repeatable engineering work.</p>
     </article>
     <article class="info-card">
       <h3>Cross-context delivery</h3>
-      <p>Experience across research labs, startups, and large organizations with strong stakeholder communication and prioritization.</p>
+      <p>Experience across research labs, startups, industrial teams, and cross-functional engineering environments with mechanical, electrical, and software stakeholders.</p>
     </article>
   </div>
 </section>
