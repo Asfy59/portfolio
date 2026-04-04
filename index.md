@@ -15,13 +15,16 @@ classes: wide
       <li><strong>Public technical output:</strong> co-authored an IEEE IECON 2025 paper and released an open radar dataset and ROS2 code.</li>
     </ul>
   </div>
+
   <div class="home-hero__content">
     <h1>Robotics software engineer building perception, integration, and autonomy systems for real-world deployment</h1>
     <p>I work at the intersection of robotics software, embedded integration, and system validation. My experience spans multi-robot perception research at TU Dortmund, sensor automation and interface tooling at Bosch Sensortec, and UAV payload and vision integration at HIGHCAT, with a consistent focus on making real systems work under sensing, timing, and deployment constraints.</p>
+
     <p class="home-hero__actions">
       <a class="btn btn--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
       <a class="btn btn--info" href="{{ '/resume/' | relative_url }}">Download Resume</a>
     </p>
+
     <p class="home-hero__links">
       <a href="https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani">LinkedIn</a> ·
       <a href="https://github.com/Asfy59">GitHub</a> ·
@@ -30,104 +33,194 @@ classes: wide
   </div>
 </section>
 
-## Featured Work
+<section class="section-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Featured</p>
+    <h2>Featured Work</h2>
+  </div>
 
-### Multi-Robot Semantic Obstacle Avoidance
+  <div class="feature-stack">
+    <article class="feature-card">
+      <h3>Multi-Robot Semantic Obstacle Avoidance</h3>
+      <img src="{{ '/assets/images/projects/placeholder-warehouse.jpg' | relative_url }}" alt="Multi-robot warehouse system">
 
-![Multi-robot warehouse system]({{ '/assets/images/projects/placeholder-warehouse.jpg' | relative_url }})
+      <p>Master’s thesis project on radar-driven multi-robot perception and semantic obstacle avoidance in a warehouse-inspired CPPS testbed.</p>
 
-Master’s thesis project on radar-driven multi-robot perception and semantic obstacle avoidance in a warehouse-inspired CPPS testbed.
+      <ul>
+        <li>Built the full ROS2 pipeline from radar graph construction to semantic Nav2 costmap updates</li>
+        <li>Created and published a 63k+ frame radar graph dataset for training and evaluation</li>
+        <li>Validated the perception-to-planning loop in hardware-in-the-loop trials and multi-robot demonstrations</li>
+      </ul>
 
-- Built the full ROS2 pipeline from radar graph construction to semantic Nav2 costmap updates
-- Created and published a 63k+ frame radar graph dataset for training and evaluation
-- Validated the perception-to-planning loop in hardware-in-the-loop trials and multi-robot demonstrations
+      <p><strong>Stack:</strong> ROS2, PyTorch Geometric, Jetson Orin, TI IWR6843, Vicon, C++, Python</p>
+      <p><a href="{{ '/projects/#multi-robot-semantic-obstacle-avoidance-framework' | relative_url }}">Read case study</a></p>
+    </article>
 
-**Stack:** ROS2, PyTorch Geometric, Jetson Orin, TI IWR6843, Vicon, C++, Python
+    <article class="feature-card">
+      <h3>Autonomous UAV Vision and Telemetry</h3>
+      <img src="{{ '/assets/images/projects/placeholder-uav.jpg' | relative_url }}" alt="UAV competition placeholder">
 
-[Read case study]({{ '/projects/#multi-robot-semantic-obstacle-avoidance-framework' | relative_url }})
+      <p>Embedded vision and telemetry pipeline developed under field and competition constraints with NUST AirWorks.</p>
 
-### Autonomous UAV Vision and Telemetry
+      <ul>
+        <li>Built onboard object recognition workflows on Jetson Nano and Raspberry Pi</li>
+        <li>Integrated LoRa-based telemetry and mission support workflows for field deployment</li>
+        <li>Contributed to the team’s Grand Champion result at the IMechE UAS Challenge in the UK</li>
+      </ul>
 
-![UAV competition placeholder]({{ '/assets/images/projects/placeholder-uav.jpg' | relative_url }})
+      <p><strong>Stack:</strong> OpenCV, Keras, Jetson Nano, Raspberry Pi, LoRa</p>
+      <p><a href="{{ '/projects/#autonomous-uav-vision-and-telemetry-pipeline' | relative_url }}">Read case study</a></p>
+    </article>
 
-Embedded vision and telemetry pipeline developed under field and competition constraints with NUST AirWorks.
+    <article class="feature-card">
+      <h3>MEMS Sensor Automation and I3C Validation Toolkit</h3>
+      <img src="{{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }}" alt="Bosch automation placeholder">
 
-- Built onboard object recognition workflows on Jetson Nano and Raspberry Pi
-- Integrated LoRa-based telemetry and mission support workflows for field deployment
-- Contributed to the team’s Grand Champion result at the IMechE UAS Challenge in the UK
+      <p>Embedded validation and interface tooling built at Bosch Sensortec for repeatable, higher-throughput MEMS sensor testing.</p>
 
-**Stack:** OpenCV, Keras, Jetson Nano, Raspberry Pi, LoRa
+      <ul>
+        <li>Designed Python automation for disturbance injection, analyzer control, and serial orchestration</li>
+        <li>Authored reusable STM32-targeted C APIs for Bosch I3C sensor communication</li>
+        <li>Reduced validation cycle time by about 50% and left tooling in ongoing internal use</li>
+      </ul>
 
-[Read case study]({{ '/projects/#autonomous-uav-vision-and-telemetry-pipeline' | relative_url }})
+      <p><strong>Stack:</strong> Python, C, STM32, I3C, serial tooling</p>
+      <p><a href="{{ '/projects/#mems-sensor-automation-and-i3c-validation-toolkit' | relative_url }}">Read case study</a></p>
+    </article>
+  </div>
+</section>
 
-### MEMS Sensor Automation and I3C Validation Toolkit
+<section class="section-panel section-panel--muted">
+  <div class="section-heading">
+    <p class="eyebrow">Strengths</p>
+    <h2>Engineering Strengths</h2>
+  </div>
 
-![Bosch automation placeholder]({{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }})
+  <div class="info-grid">
+    <article class="info-card">
+      <h3>End-to-end robotics integration</h3>
+      <p>Building ROS2 pipelines that connect sensing, inference, semantic mapping, and navigation behavior.</p>
+    </article>
 
-Embedded validation and interface tooling built at Bosch Sensortec for repeatable, higher-throughput MEMS sensor testing.
+    <article class="info-card">
+      <h3>Embedded and interface-level debugging</h3>
+      <p>Hands-on work across MAVLink, VISCA, SimpleBGC, I3C, STM32, and Jetson-based systems.</p>
+    </article>
 
-- Designed Python automation for disturbance injection, analyzer control, and serial orchestration
-- Authored reusable STM32-targeted C APIs for Bosch I3C sensor communication
-- Reduced validation cycle time by about 50% and left tooling in ongoing internal use
+    <article class="info-card">
+      <h3>Validation with measurable outcomes</h3>
+      <p>Hardware-in-the-loop testing, latency benchmarking, automation gains, and reproducible datasets.</p>
+    </article>
 
-**Stack:** Python, C, STM32, I3C, serial tooling
+    <article class="info-card">
+      <h3>Execution across engineering contexts</h3>
+      <p>Experience spanning research labs, startups, industrial teams, and cross-functional development environments.</p>
+    </article>
+  </div>
+</section>
 
-[Read case study]({{ '/projects/#mems-sensor-automation-and-i3c-validation-toolkit' | relative_url }})
+<section class="section-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Experience</p>
+    <h2>Experience Snapshot</h2>
+    <p>Roles and environments where I have built and validated systems.</p>
+  </div>
 
+  <div class="info-grid">
+    <article class="info-card">
+      <h3>TU Dortmund</h3>
+      <p>Built a radar-based multi-robot perception stack with graph learning, semantic obstacle publishing, and Nav2 costmap integration for real-time obstacle avoidance.</p>
+    </article>
 
+    <article class="info-card">
+      <h3>Bosch Sensortec</h3>
+      <p>Built automation and reusable interface tooling for MEMS sensor robustness testing, disturbance injection, and I3C communication.</p>
+    </article>
 
-## Engineering Strengths
+    <article class="info-card">
+      <h3>HIGHCAT GmbH</h3>
+      <p>Integrated UAV payload control and edge-vision workflows, including MAVLink command bridging, camera and gimbal control, and Jetson bring-up.</p>
+    </article>
 
-- **End-to-end robotics integration:** building ROS2 pipelines that connect sensing, inference, semantic mapping, and navigation behavior
-- **Embedded and interface-level debugging:** hands-on work across MAVLink, VISCA, SimpleBGC, I3C, STM32, and Jetson-based systems
-- **Validation with measurable outcomes:** hardware-in-the-loop testing, latency benchmarking, automation gains, and reproducible datasets
-- **Execution across engineering contexts:** experience spanning research labs, startups, industrial teams, and cross-functional development environments
+    <article class="info-card">
+      <h3>VMT</h3>
+      <p>Developed and evaluated an MPC prototype for tunnel boring machine steering under industrial system constraints.</p>
+    </article>
+  </div>
+</section>
 
-## Experience Snapshot
+<section class="section-panel section-panel--muted">
+  <div class="section-heading">
+    <p class="eyebrow">Education</p>
+    <h2>Education</h2>
+  </div>
 
-Roles and environments where I have built and validated systems.
+  <div class="info-grid info-grid--two">
+    <article class="info-card">
+      <h3>M.Sc. Automation and Robotics — TU Dortmund University</h3>
+      <p>Focused on robotics, perception, and autonomous systems. Thesis: <em>Development of an Obstacle Avoidance Framework through Multi-Robot Perception</em>.</p>
+      <p><a href="{{ '/projects/#multi-robot-semantic-obstacle-avoidance-framework' | relative_url }}">See project</a></p>
+    </article>
 
-### TU Dortmund
-Built a radar-based multi-robot perception stack with graph learning, semantic obstacle publishing, and Nav2 costmap integration for real-time obstacle avoidance.
+    <article class="info-card">
+      <h3>B.E. Electrical Engineering — NUST</h3>
+      <p>Built a strong foundation in embedded systems, control, and applied engineering through coursework, technical projects, and international engineering competitions.</p>
+    </article>
+  </div>
+</section>
 
-### Bosch Sensortec
-Built automation and reusable interface tooling for MEMS sensor robustness testing, disturbance injection, and I3C communication.
+<section class="section-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Artifacts</p>
+    <h2>Research and Open Artifacts</h2>
+    <p>Technical outputs tied directly to hands-on system work.</p>
+  </div>
 
-### HIGHCAT GmbH
-Integrated UAV payload control and edge-vision workflows, including MAVLink command bridging, camera and gimbal control, and Jetson bring-up.
+  <div class="info-grid info-grid--three">
+    <article class="info-card">
+      <h3>IEEE IECON 2025</h3>
+      <p>Co-authored publication based on collaborative robot mapping and semantic perception work from TU Dortmund.</p>
+      <p><a href="https://ieeexplore.ieee.org/document/11221930">IEEE Xplore</a></p>
+    </article>
 
-### VMT
-Developed and evaluated an MPC prototype for tunnel boring machine steering under industrial system constraints.
+    <article class="info-card">
+      <h3>RoboFUSE GNN Dataset</h3>
+      <p>Public radar-based graph dataset built from synchronized multi-robot radar and MoCap recordings for collaborative perception experiments.</p>
+      <p><a href="https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset">Kaggle dataset</a></p>
+    </article>
 
-## Education
+    <article class="info-card">
+      <h3>Open-source ROS2 Interfaces</h3>
+      <p>Selected code released from the multi-robot perception pipeline, including GNN inference and robot-side integration work.</p>
+      <p>
+        <a href="https://github.com/FLW-TUDO/ROS2_GNN_Edge">ROS2_GNN_Edge</a> ·
+        <a href="https://github.com/FLW-TUDO/ROS2_GNN_Robomaster">ROS2_GNN_Robomaster</a>
+      </p>
+    </article>
+  </div>
+</section>
 
-### M.Sc. Automation and Robotics — TU Dortmund University
-Focused on robotics, perception, and autonomous systems. Thesis: *Development of an Obstacle Avoidance Framework through Multi-Robot Perception*.  
-[See project]({{ '/projects/#multi-robot-semantic-obstacle-avoidance-framework' | relative_url }})
+<section class="section-panel section-panel--muted" id="contact">
+  <div class="section-heading">
+    <p class="eyebrow">Contact</p>
+    <h2>Contact</h2>
+    <p>Open to robotics, autonomy, and embedded AI opportunities.</p>
+  </div>
 
-### B.E. Electrical Engineering — NUST
-Built a strong foundation in embedded systems, control, and applied engineering through coursework, technical projects, and international engineering competitions.
+  <div class="info-grid info-grid--three">
+    <article class="info-card">
+      <h3>Email</h3>
+      <p><a href="mailto:durraniasfand@hotmail.com">durraniasfand@hotmail.com</a></p>
+    </article>
 
-## Research and Open Artifacts
+    <article class="info-card">
+      <h3>LinkedIn</h3>
+      <p><a href="https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani">muhammad-asfandyar-khan-durrani</a></p>
+    </article>
 
-Technical outputs tied directly to hands-on system work.
-
-### IEEE IECON 2025
-Co-authored publication based on collaborative robot mapping and semantic perception work from TU Dortmund.  
-[IEEE Xplore](https://ieeexplore.ieee.org/document/11221930)
-
-### RoboFUSE GNN Dataset
-Public radar-based graph dataset built from synchronized multi-robot radar and MoCap recordings for collaborative perception experiments.  
-[Kaggle dataset](https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset)
-
-### Open-source ROS2 Interfaces
-Selected code released from the multi-robot perception pipeline, including GNN inference and robot-side integration work.  
-[ROS2_GNN_Edge](https://github.com/FLW-TUDO/ROS2_GNN_Edge) · [ROS2_GNN_Robomaster](https://github.com/FLW-TUDO/ROS2_GNN_Robomaster)
-
-## Contact {#contact}
-
-Open to robotics, autonomy, and embedded AI opportunities.
-
-- Email: [durraniasfand@hotmail.com](mailto:durraniasfand@hotmail.com)
-- LinkedIn: [muhammad-asfandyar-khan-durrani](https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani)
-- GitHub: [Asfy59](https://github.com/Asfy59)
+    <article class="info-card">
+      <h3>GitHub</h3>
+      <p><a href="https://github.com/Asfy59">Asfy59</a></p>
+    </article>
+  </div>
+</section>
