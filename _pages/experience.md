@@ -1,7 +1,7 @@
 ---
 title: "Experience"
 permalink: /experience/
-classes: wide
+classes: wide portfolio-page
 ---
 
 <section class="section-panel">
@@ -96,7 +96,7 @@ classes: wide
     <p class="experience-meta">TU Dortmund University · Dortmund, Germany</p>
     <ul class="compact-list">
       <li>Master's thesis: <em>Development of an Obstacle Avoidance Framework through Multi-Robot Perception</em>.</li>
-      <li>Built the radar-based ROS2, GNN, and Nav2 integration stack documented in the detailed experience reference.</li>
+      <li>Built a radar-based ROS2 perception and navigation stack spanning data fusion, graph learning, semantic obstacle publishing, and Nav2 costmap integration.</li>
     </ul>
   </article>
 

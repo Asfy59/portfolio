@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-classes: wide
+classes: wide portfolio-page
 ---
 
 <section class="section-panel">

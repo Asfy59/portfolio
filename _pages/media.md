@@ -1,14 +1,14 @@
 ---
 title: "Media"
 permalink: /media/
-classes: wide
+classes: wide portfolio-page
 ---
 
 <section class="section-panel">
   <div class="section-heading">
     <p class="eyebrow">Media</p>
     <h1>Visual archive</h1>
-    <p>A selection of images and references from thesis work, Formula Student, and NUST AirWorks. This page is meant to support the portfolio with real visual context rather than act as a file dump.</p>
+    <p>Images from the TU Dortmund thesis work, Formula Student EV build environment, and NUST AirWorks competition deployment. The goal is to show the real hardware and testing context behind the portfolio projects.</p>
   </div>
 </section>
 
@@ -17,8 +17,8 @@ classes: wide
     <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }}" alt="CPPS warehouse scenario">
     <figcaption>Warehouse-inspired CPPS environment used for multi-robot perception and obstacle avoidance experiments at TU Dortmund.</figcaption>
   </figure>
-    <figure class="gallery-card">
-    <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/Pictures/results/placeholder-warehouse_real.jpg' | relative_url }}" alt="Planned trajectories">
+  <figure class="gallery-card">
+    <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/placeholder-warehouse_real.jpg' | relative_url }}" alt="Warehouse experiment arena">
     <figcaption>Warehouse-inspired CPPS environment used for multi-robot perception and obstacle avoidance experiments at TU Dortmund.</figcaption>
   </figure>
   <figure class="gallery-card">
@@ -54,7 +54,7 @@ classes: wide
 <section class="section-panel section-panel--muted">
   <div class="section-heading">
     <p class="eyebrow">References</p>
-    <h2>Supporting material</h2>
+    <h2>Public references</h2>
   </div>
   <ul class="resource-list">
     <li><a href="https://ieeexplore.ieee.org/document/11221930">IEEE IECON 2025 publication</a></li>

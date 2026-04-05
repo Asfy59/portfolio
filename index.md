@@ -3,16 +3,16 @@ layout: single
 title: "Muhammad Asfandyar Khan"
 permalink: /
 author_profile: false
-classes: wide
+classes: wide portfolio-page home-page
 ---
 
 <section class="home-hero">
   <div class="home-hero__media">
     <img class="home-hero__avatar" src="{{ '/assets/images/profile/profile.jpg' | relative_url }}" alt="Muhammad Asfandyar Khan portrait">
     <ul class="home-hero__proof">
-      <li><strong>Research to deployment:</strong> built robotics and embedded systems across TU Dortmund, Bosch Sensortec, and HIGHCAT.</li>
-      <li><strong>Measured engineering impact:</strong> reduced Bosch MEMS sensor validation cycle time by about 50% through automation.</li>
-      <li><strong>Public technical output:</strong> co-authored an IEEE IECON 2025 paper and released an open radar dataset and ROS2 code.</li>
+      <li><strong>Real robotics integration:</strong> built an end-to-end ROS2 multi-robot perception pipeline from radar sensing and graph construction to semantic Nav2 costmap updates.</li>
+      <li><strong>Validated on hardware:</strong> tested the perception-to-planning loop in hardware-in-the-loop trials and multi-robot demonstrations under real sensing and timing constraints.</li>
+      <li><strong>Public technical output:</strong> co-authored an IEEE IECON 2025 paper and released an open radar dataset and ROS2 code tied to real system development.</li>
     </ul>
   </div>
 
@@ -42,7 +42,7 @@ classes: wide
   <div class="feature-stack">
     <article class="feature-card">
       <h3>Multi-Robot Semantic Obstacle Avoidance</h3>
-      <img src="{{ '/assets/images/projects/placeholder-warehouse.jpg' | relative_url }}" alt="Multi-robot warehouse system">
+      <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/placeholder-warehouse_real.jpg' | relative_url }}" alt="Multi-robot warehouse perception experiment">
 
       <p>Master’s thesis project on radar-driven multi-robot perception and semantic obstacle avoidance in a warehouse-inspired CPPS testbed.</p>
 
@@ -58,7 +58,7 @@ classes: wide
 
     <article class="feature-card">
       <h3>Autonomous UAV Vision and Telemetry</h3>
-      <img src="{{ '/assets/images/projects/placeholder-uav.jpg' | relative_url }}" alt="UAV competition placeholder">
+      <img src="{{ '/assets/NUST%20Airworks/17-06-19%20-%20Set-4%20-228.jpg' | relative_url }}" alt="NUST AirWorks field deployment">
 
       <p>Embedded vision and telemetry pipeline developed under field and competition constraints with NUST AirWorks.</p>
 
@@ -74,7 +74,7 @@ classes: wide
 
     <article class="feature-card">
       <h3>MEMS Sensor Automation and I3C Validation Toolkit</h3>
-      <img src="{{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }}" alt="Bosch automation placeholder">
+      <img src="{{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }}" alt="Embedded sensor validation and automation toolkit illustration">
 
       <p>Embedded validation and interface tooling built at Bosch Sensortec for repeatable, higher-throughput MEMS sensor testing.</p>
 
@@ -165,15 +165,16 @@ classes: wide
     <article class="info-card">
       <h3>B.E. Electrical Engineering — NUST</h3>
       <p>Built a strong foundation in embedded systems, control, and applied engineering through coursework, technical projects, and international engineering competitions.</p>
+      <p><a href="{{ '/projects/#wall-traversing-robot' | relative_url }}">See project</a></p>
     </article>
   </div>
 </section>
 
 <section class="section-panel">
   <div class="section-heading">
-    <p class="eyebrow">Artifacts</p>
-    <h2>Research and Open Artifacts</h2>
-    <p>Technical outputs tied directly to hands-on system work.</p>
+    <p class="eyebrow">Public Work</p>
+    <h2>Publication, Dataset, and Open Code</h2>
+    <p>Public outputs that came directly from the TU Dortmund multi-robot perception work rather than side projects detached from deployment.</p>
   </div>
 
   <div class="info-grid info-grid--three">
@@ -204,7 +205,7 @@ classes: wide
   <div class="section-heading">
     <p class="eyebrow">Contact</p>
     <h2>Contact</h2>
-    <p>Open to robotics, autonomy, and embedded AI opportunities.</p>
+    <p>Available for robotics software, perception, embedded integration, and autonomy engineering roles.</p>
   </div>
 
   <div class="info-grid info-grid--three">
