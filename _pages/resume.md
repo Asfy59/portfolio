@@ -14,9 +14,9 @@ classes: wide portfolio-page
 
 <section class="section-panel section-panel--muted">
   <div class="resume-panel">
-    <h2>PDF Status</h2>
-    <p>The downloadable PDF is not bundled in this repository. Until it is restored at <code>assets/files/Asfand_Resume.pdf</code>, the quickest way to request it is by email or LinkedIn.</p>
-    <p class="project-links"><a href="mailto:durraniasfand@hotmail.com">Request by email</a> · <a href="https://www.linkedin.com/in/muhammad-asfandyar-khan-durrani">Message on LinkedIn</a></p>
+    <h2>Download Resume</h2>
+    <p>Download the current PDF version of my resume below.</p>
+    <p class="project-links"><a href="{{ '/assets/files/Asfand_Resume.pdf' | relative_url }}">Open PDF resume</a> · <a href="{{ '/assets/files/Asfand_Resume.pdf' | relative_url }}" download>Download PDF</a></p>
   </div>
 </section>
 

@@ -10,19 +10,19 @@ classes: wide portfolio-page home-page
   <div class="home-hero__media">
     <img class="home-hero__avatar" src="{{ '/assets/images/profile/profile.jpg' | relative_url }}" alt="Muhammad Asfandyar Khan portrait">
     <ul class="home-hero__proof">
-      <li><strong>Real robotics integration:</strong> built an end-to-end ROS2 multi-robot perception pipeline from radar sensing and graph construction to semantic Nav2 costmap updates.</li>
-      <li><strong>Validated on hardware:</strong> tested the perception-to-planning loop in hardware-in-the-loop trials and multi-robot demonstrations under real sensing and timing constraints.</li>
-      <li><strong>Public technical output:</strong> co-authored an IEEE IECON 2025 paper and released an open radar dataset and ROS2 code tied to real system development.</li>
+      <li><strong>63k+</strong> public radar graph frames released for collaborative perception research.</li>
+      <li><strong>~50 ms</strong> sensing-to-costmap latency in hardware-in-the-loop multi-robot trials.</li>
+      <li><strong>~50%</strong> Bosch validation cycle-time reduction through automation and reusable interface tooling.</li>
     </ul>
   </div>
 
   <div class="home-hero__content">
     <h1>Robotics software engineer building perception, integration, and autonomy systems for real-world deployment</h1>
-    <p>I work at the intersection of robotics software, embedded integration, and system validation. My experience spans multi-robot perception research at TU Dortmund, sensor automation and interface tooling at Bosch Sensortec, and UAV payload and vision integration at HIGHCAT, with a consistent focus on making real systems work under sensing, timing, and deployment constraints.</p>
+    <p>I build robotics software that has to work on real hardware. My work spans multi-robot perception at TU Dortmund, sensor automation at Bosch Sensortec, and UAV payload integration at HIGHCAT.</p>
 
     <p class="home-hero__actions">
       <a class="btn btn--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
-      <a class="btn btn--info" href="{{ '/resume/' | relative_url }}">Download Resume</a>
+      <a class="btn btn--info" href="{{ '/assets/files/Asfand_Resume.pdf' | relative_url }}">Download Resume</a>
     </p>
 
     <p class="home-hero__links">
@@ -44,15 +44,14 @@ classes: wide portfolio-page home-page
       <h3>Multi-Robot Semantic Obstacle Avoidance</h3>
       <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/placeholder-warehouse_real.jpg' | relative_url }}" alt="Multi-robot warehouse perception experiment">
 
-      <p>Master’s thesis project on radar-driven multi-robot perception and semantic obstacle avoidance in a warehouse-inspired CPPS testbed.</p>
+      <p>Radar-driven perception and navigation integration for collaborative obstacle handling in a warehouse-inspired CPPS testbed.</p>
 
       <ul>
-        <li>Built the full ROS2 pipeline from radar graph construction to semantic Nav2 costmap updates</li>
-        <li>Created and published a 63k+ frame radar graph dataset for training and evaluation</li>
-        <li>Validated the perception-to-planning loop in hardware-in-the-loop trials and multi-robot demonstrations</li>
+        <li>Built the ROS2 pipeline from radar graph construction to semantic Nav2 costmap updates</li>
+        <li>Released a 63k+ frame radar graph dataset for training and evaluation</li>
       </ul>
 
-      <p><strong>Stack:</strong> ROS2, PyTorch Geometric, Jetson Orin, TI IWR6843, Vicon, C++, Python</p>
+      <p><strong>Outcome:</strong> validated the perception-to-planning loop in hardware-in-the-loop multi-robot trials.</p>
       <p><a href="{{ '/projects/#multi-robot-semantic-obstacle-avoidance-framework' | relative_url }}">Read case study</a></p>
     </article>
 
@@ -60,15 +59,14 @@ classes: wide portfolio-page home-page
       <h3>Autonomous UAV Vision and Telemetry</h3>
       <img src="{{ '/assets/NUST%20Airworks/17-06-19%20-%20Set-4%20-228.jpg' | relative_url }}" alt="NUST AirWorks field deployment">
 
-      <p>Embedded vision and telemetry pipeline developed under field and competition constraints with NUST AirWorks.</p>
+      <p>Embedded vision and telemetry pipeline developed for competition deployment with NUST AirWorks.</p>
 
       <ul>
-        <li>Built onboard object recognition workflows on Jetson Nano and Raspberry Pi</li>
-        <li>Integrated LoRa-based telemetry and mission support workflows for field deployment</li>
-        <li>Contributed to the team’s Grand Champion result at the IMechE UAS Challenge in the UK</li>
+        <li>Built onboard object-recognition workflows on Jetson Nano and Raspberry Pi</li>
+        <li>Integrated LoRa telemetry and mission-support data links for field use</li>
       </ul>
 
-      <p><strong>Stack:</strong> OpenCV, Keras, Jetson Nano, Raspberry Pi, LoRa</p>
+      <p><strong>Outcome:</strong> contributed to the team's Grand Champion result at the IMechE UAS Challenge in the UK.</p>
       <p><a href="{{ '/projects/#autonomous-uav-vision-and-telemetry-pipeline' | relative_url }}">Read case study</a></p>
     </article>
 
@@ -76,15 +74,14 @@ classes: wide portfolio-page home-page
       <h3>MEMS Sensor Automation and I3C Validation Toolkit</h3>
       <img src="{{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }}" alt="Embedded sensor validation and automation toolkit illustration">
 
-      <p>Embedded validation and interface tooling built at Bosch Sensortec for repeatable, higher-throughput MEMS sensor testing.</p>
+      <p>Embedded validation tooling built at Bosch Sensortec for repeatable, higher-throughput MEMS sensor testing.</p>
 
       <ul>
-        <li>Designed Python automation for disturbance injection, analyzer control, and serial orchestration</li>
+        <li>Built Python automation for disturbance injection, analyzer control, and serial orchestration</li>
         <li>Authored reusable STM32-targeted C APIs for Bosch I3C sensor communication</li>
-        <li>Reduced validation cycle time by about 50% and left tooling in ongoing internal use</li>
       </ul>
 
-      <p><strong>Stack:</strong> Python, C, STM32, I3C, serial tooling</p>
+      <p><strong>Outcome:</strong> reduced validation cycle time by about 50% and left tooling in ongoing internal use.</p>
       <p><a href="{{ '/projects/#mems-sensor-automation-and-i3c-validation-toolkit' | relative_url }}">Read case study</a></p>
     </article>
   </div>
