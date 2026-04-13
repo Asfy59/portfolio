@@ -202,8 +202,13 @@ img {
   padding: 1.75rem;
   border: 1px solid #e5e7eb;
   border-radius: 20px;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  background-image:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.94) 0%, rgba(255, 255, 255, 0.88) 48%, rgba(248, 250, 252, 0.82) 100%),
+    url("../images/profile/Theme.jpg");
+  background-size: cover;
+  background-position: center;
   box-shadow: 0 24px 56px -40px rgba(15, 23, 42, 0.45);
+  overflow: hidden;
 }
 
 .home-hero__avatar {
@@ -211,6 +216,7 @@ img {
   width: 100%;
   max-width: 280px;
   border-radius: 16px;
+  box-shadow: 0 20px 50px -34px rgba(15, 23, 42, 0.9);
 }
 
 .home-hero__proof {
@@ -235,6 +241,10 @@ img {
   margin-top: 0;
   max-width: 24ch;
   line-height: 1.15;
+}
+
+.home-hero__content {
+  max-width: 42rem;
 }
 
 .home-page .section-panel--muted {
@@ -463,6 +473,13 @@ a.external-link.btn::after {
 
   .home-hero__avatar {
     max-width: 240px;
+  }
+
+  .home-hero {
+    background-image:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.9) 100%),
+      url("../images/profile/Theme.jpg");
+    background-position: center;
   }
 
   .section-panel--muted {

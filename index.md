@@ -9,16 +9,11 @@ classes: wide portfolio-page home-page
 <section class="home-hero">
   <div class="home-hero__media">
     <img class="home-hero__avatar" src="{{ '/assets/images/profile/profile.jpg' | relative_url }}" alt="Muhammad Asfandyar Khan portrait">
-    <ul class="home-hero__proof">
-      <li><strong>63k+</strong> public radar graph frames released for collaborative perception research.</li>
-      <li><strong>~50 ms</strong> sensing-to-costmap latency in hardware-in-the-loop multi-robot trials.</li>
-      <li><strong>~50%</strong> Bosch validation cycle-time reduction through automation and reusable interface tooling.</li>
-    </ul>
   </div>
 
   <div class="home-hero__content">
     <h1>Robotics software engineer building perception, integration, and autonomy systems for real-world deployment</h1>
-    <p>I build robotics software that has to work on real hardware. My work spans multi-robot perception at TU Dortmund, sensor automation at Bosch Sensortec, UAV payload integration at HIGHCAT, and an ongoing ROS2/C++ autonomous-driving perception stack built around KITTI replay.</p>
+    <p>I build ROS2, perception, and embedded systems for real hardware, spanning multi-robot research, UAV integration, and an ongoing ROS2/C++ autonomous-driving stack built around KITTI replay.</p>
 
     <p class="home-hero__actions">
       <a class="btn btn--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
@@ -87,21 +82,6 @@ classes: wide portfolio-page home-page
       <p><strong>Outcome:</strong> contributed to the team's Grand Champion result at the IMechE UAS Challenge in the UK.</p>
       <p><a href="{{ '/projects/#autonomous-uav-vision-and-telemetry-pipeline' | relative_url }}">Read case study</a></p>
     </article>
-
-    <article class="feature-card">
-      <h3>MEMS Sensor Automation and I3C Validation Toolkit</h3>
-      <img src="{{ '/assets/images/projects/placeholder-bosch.jpg' | relative_url }}" alt="Embedded sensor validation and automation toolkit illustration">
-
-      <p>Embedded validation tooling built at Bosch Sensortec for repeatable, higher-throughput MEMS sensor testing.</p>
-
-      <ul>
-        <li>Built Python automation for disturbance injection, analyzer control, and serial orchestration</li>
-        <li>Authored reusable STM32-targeted C APIs for Bosch I3C sensor communication</li>
-      </ul>
-
-      <p><strong>Outcome:</strong> reduced validation cycle time by about 50% and left tooling in ongoing internal use.</p>
-      <p><a href="{{ '/projects/#mems-sensor-automation-and-i3c-validation-toolkit' | relative_url }}">Read case study</a></p>
-    </article>
   </div>
 </section>
 
@@ -114,7 +94,7 @@ classes: wide portfolio-page home-page
   <div class="info-grid">
     <article class="info-card">
       <h3>End-to-end robotics integration</h3>
-      <p>Building ROS2 pipelines that connect sensing, inference, semantic mapping, and navigation behavior.</p>
+      <p>ROS2 pipelines that connect sensing, inference, semantic mapping, and deployment-facing behavior.</p>
     </article>
 
     <article class="info-card">
@@ -138,7 +118,6 @@ classes: wide portfolio-page home-page
   <div class="section-heading">
     <p class="eyebrow">Experience</p>
     <h2>Experience Snapshot</h2>
-    <p>Roles and environments where I have built and validated systems.</p>
   </div>
 
   <div class="info-grid">
@@ -189,7 +168,6 @@ classes: wide portfolio-page home-page
   <div class="section-heading">
     <p class="eyebrow">Public Work</p>
     <h2>Publication, Dataset, and Open Code</h2>
-    <p>Public outputs that came directly from the TU Dortmund multi-robot perception work rather than side projects detached from deployment.</p>
   </div>
 
   <div class="info-grid info-grid--three">
