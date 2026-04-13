@@ -131,6 +131,23 @@ img {
   object-fit: cover;
 }
 
+.feature-card__gallery,
+.project-showcase__gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card__gallery img,
+.project-showcase__gallery img {
+  display: block;
+  width: 100%;
+  border-radius: 14px;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
 .feature-card ul {
   margin: 0.75rem 0 1rem 1.2rem;
   line-height: 1.6;
@@ -269,7 +286,7 @@ img {
   margin: 0;
 }
 
-.project-showcase__media img {
+.project-showcase__media > img {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
@@ -450,6 +467,11 @@ a.external-link.btn::after {
 
   .section-panel--muted {
     padding: 1.2rem;
+  }
+
+  .feature-card__gallery,
+  .project-showcase__gallery {
+    grid-template-columns: 1fr;
   }
 }
 

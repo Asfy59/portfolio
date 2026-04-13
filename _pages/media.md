@@ -8,11 +8,19 @@ classes: wide portfolio-page
   <div class="section-heading">
     <p class="eyebrow">Media</p>
     <h1>Visual archive</h1>
-    <p>Images from the TU Dortmund thesis work, Formula Student EV build environment, and NUST AirWorks competition deployment. The goal is to show the real hardware and testing context behind the portfolio projects.</p>
+    <p>Images from the TU Dortmund thesis work, the ongoing ROS2 autonomous-driving stack, Formula Student EV build environment, and NUST AirWorks competition deployment. The goal is to show the real hardware and testing context behind the portfolio projects.</p>
   </div>
 </section>
 
 <section class="gallery-grid gallery-grid--media">
+  <figure class="gallery-card">
+    <img src="{{ '/assets/images/projects/av-perception-stack-lidar-2026-04.png' | relative_url }}" alt="KITTI LiDAR preprocessing and obstacle clustering view">
+    <figcaption>LiDAR-side preprocessing from the ongoing ROS2 autonomous-driving stack, showing ROI filtering and obstacle candidate generation from KITTI replay.</figcaption>
+  </figure>
+  <figure class="gallery-card">
+    <img src="{{ '/assets/images/projects/av-perception-stack-camera-2026-04.png' | relative_url }}" alt="KITTI camera detections overlay">
+    <figcaption>Camera-side object detection output from the same stack, using monocular KITTI replay with ONNX-based YOLO inference.</figcaption>
+  </figure>
   <figure class="gallery-card gallery-card--large">
     <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/CPPS_warehouse_scenario.png' | relative_url }}" alt="CPPS warehouse scenario">
     <figcaption>Warehouse-inspired CPPS environment used for multi-robot perception and obstacle avoidance experiments at TU Dortmund.</figcaption>
@@ -57,6 +65,7 @@ classes: wide portfolio-page
     <h2>Public references</h2>
   </div>
   <ul class="resource-list">
+    <li><a href="https://github.com/Asfy59/ros2_cpp_autonomous_driving_stack/tree/main">ROS2 C++ autonomous-driving mini-stack</a></li>
     <li><a href="https://ieeexplore.ieee.org/document/11221930">IEEE IECON 2025 publication</a></li>
     <li><a href="https://ieeexplore.ieee.org/abstract/document/9073861">Kalman Filter publication</a></li>
     <li><a href="https://www.kaggle.com/datasets/asfand59/robofuse-gnn-dataset">RoboFuse GNN dataset on Kaggle</a></li>

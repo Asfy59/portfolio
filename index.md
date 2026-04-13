@@ -18,7 +18,7 @@ classes: wide portfolio-page home-page
 
   <div class="home-hero__content">
     <h1>Robotics software engineer building perception, integration, and autonomy systems for real-world deployment</h1>
-    <p>I build robotics software that has to work on real hardware. My work spans multi-robot perception at TU Dortmund, sensor automation at Bosch Sensortec, and UAV payload integration at HIGHCAT.</p>
+    <p>I build robotics software that has to work on real hardware. My work spans multi-robot perception at TU Dortmund, sensor automation at Bosch Sensortec, UAV payload integration at HIGHCAT, and an ongoing ROS2/C++ autonomous-driving perception stack built around KITTI replay.</p>
 
     <p class="home-hero__actions">
       <a class="btn btn--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
@@ -40,6 +40,24 @@ classes: wide portfolio-page home-page
   </div>
 
   <div class="feature-stack">
+    <article class="feature-card">
+      <h3>ROS2 C++ Perception and Sensor Fusion Mini-Stack</h3>
+      <div class="feature-card__gallery">
+        <img src="{{ '/assets/images/projects/av-perception-stack-lidar-2026-04.png' | relative_url }}" alt="KITTI LiDAR preprocessing and clustered obstacle visualization">
+        <img src="{{ '/assets/images/projects/av-perception-stack-camera-2026-04.png' | relative_url }}" alt="KITTI camera detections with YOLO overlay">
+      </div>
+
+      <p>Ongoing autonomous-driving portfolio project focused on readable ROS2/C++ perception architecture, LiDAR-camera processing, and a clean path toward fusion without over-claiming behavior planning.</p>
+
+      <ul>
+        <li>Built custom LiDAR and camera processing packages that publish 3D and 2D detections from replayed KITTI data</li>
+        <li>Added runtime profiling, CSV logging, RViz visualization, and an early fusion scaffold for the next stage of development</li>
+      </ul>
+
+      <p><strong>Status:</strong> perception modules are working; fusion, tracked outputs, and broader test coverage are still in progress.</p>
+      <p><a href="{{ '/projects/#ros2-cpp-perception-and-sensor-fusion-mini-stack' | relative_url }}">Read case study</a></p>
+    </article>
+
     <article class="feature-card">
       <h3>Multi-Robot Semantic Obstacle Avoidance</h3>
       <img src="{{ '/assets/FLW%20%28Thesis%29/thesis/placeholder-warehouse_real.jpg' | relative_url }}" alt="Multi-robot warehouse perception experiment">

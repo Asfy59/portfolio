@@ -13,6 +13,31 @@ classes: wide portfolio-page
 </section>
 
 <section class="project-grid">
+  <article class="project-card" id="ros2-cpp-perception-and-sensor-fusion-mini-stack">
+    <div class="project-showcase">
+      <figure class="project-showcase__media">
+        <div class="project-showcase__gallery">
+          <img src="{{ '/assets/images/projects/av-perception-stack-lidar-2026-04.png' | relative_url }}" alt="RViz view comparing raw and processed KITTI LiDAR point clouds with clustered obstacle boxes">
+          <img src="{{ '/assets/images/projects/av-perception-stack-camera-2026-04.png' | relative_url }}" alt="Camera-side KITTI replay view with object detection boxes from the ROS2 autonomous driving stack">
+        </div>
+        <figcaption>Current stack visuals: LiDAR preprocessing and 3D obstacle proposals on one side, monocular YOLO-based camera detections on the other, both running on replayed KITTI data.</figcaption>
+      </figure>
+      <div class="project-showcase__content">
+        <p class="project-kicker">Ongoing Personal Project · ROS2 / Autonomous Driving</p>
+        <h2>ROS2 C++ Perception and Sensor Fusion Mini-Stack</h2>
+        <p>In-progress autonomous-driving portfolio project built around KITTI replay to demonstrate ROS2 package architecture, modern C++ perception pipelines, and a clean path toward LiDAR-camera fusion without over-claiming end-to-end AV behavior.</p>
+        <ul class="compact-list">
+          <li>Built a custom <code>lidar_processing</code> package in ROS2/C++ for ROI cropping, voxelization, optional RANSAC ground removal, Euclidean clustering, 3D detections, and RViz marker publishing.</li>
+          <li>Built a custom <code>camera_processing</code> package for monocular image ingestion, ONNX Runtime-based YOLO inference, 2D detections, overlay publishing, and interval-based profiling with optional CSV logging.</li>
+          <li>Structured the stack so replay, TF, URDF, RViz, and odometry stay in the infrastructure layer while custom packages own perception, visualization bringup, and the early <code>fusion_core</code> scaffold.</li>
+        </ul>
+        <p><strong>Stack:</strong> ROS2, C++, PCL, OpenCV, ONNX Runtime, RViz2, KITTI replay, vision_msgs.</p>
+        <p class="project-links"><a href="https://github.com/Asfy59/ros2_cpp_autonomous_driving_stack/tree/main">GitHub repo</a></p>
+        <p class="project-note">Current status: LiDAR and camera perception nodes are working and profiled; sensor-fusion association, tracked/fused object outputs, and broader test/CI coverage are still under active development.</p>
+      </div>
+    </div>
+  </article>
+
   <article class="project-card" id="multi-robot-semantic-obstacle-avoidance-framework">
     <div class="project-showcase">
       <figure class="project-showcase__media">

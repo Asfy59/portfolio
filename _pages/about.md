@@ -8,7 +8,7 @@ classes: wide portfolio-page
   <div class="section-heading">
     <p class="eyebrow">About</p>
     <h1>Robotics software engineer building perception, integration, and autonomy systems that work under real-world constraints.</h1>
-    <p>I have worked across university robotics research, embedded sensor validation, and UAV software integration. The common thread in my work is taking real hardware, noisy sensing, timing constraints, and system complexity and turning them into software that can be integrated, validated, and relied on in practice.</p>
+    <p>I have worked across university robotics research, embedded sensor validation, and UAV software integration, and I am currently extending that work through a ROS2/C++ autonomous-driving perception and sensor-fusion mini-stack built around KITTI replay. The common thread in my work is taking real hardware, noisy sensing, timing constraints, and system complexity and turning them into software that can be integrated, validated, and relied on in practice.</p>
   </div>
 </section>
 
