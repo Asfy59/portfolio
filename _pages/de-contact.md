@@ -7,8 +7,6 @@ translation_key: contact
 page_key: contact
 ---
 
-{% include portfolio-topbar.html %}
-
 <section class="section-panel">
   <div class="section-heading">
     <p class="eyebrow">Kontakt</p>

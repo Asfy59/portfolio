@@ -9,8 +9,6 @@ translation_key: home
 page_key: home
 ---
 
-{% include portfolio-topbar.html %}
-
 <section class="home-hero">
   <div class="home-hero__media">
     <img class="home-hero__avatar" src="{{ '/assets/images/profile/profile.jpg' | relative_url }}" alt="Muhammad Asfandyar Khan portrait">

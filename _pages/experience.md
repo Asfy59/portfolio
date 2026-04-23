@@ -7,8 +7,6 @@ translation_key: experience
 page_key: experience
 ---
 
-{% include portfolio-topbar.html %}
-
 <section class="section-panel">
   <div class="section-heading">
     <p class="eyebrow">Experience</p>

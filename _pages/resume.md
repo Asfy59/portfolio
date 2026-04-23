@@ -7,8 +7,6 @@ translation_key: resume
 page_key: resume
 ---
 
-{% include portfolio-topbar.html %}
-
 <section class="section-panel">
   <div class="section-heading">
     <p class="eyebrow">Resume</p>

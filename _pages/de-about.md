@@ -7,8 +7,6 @@ translation_key: about
 page_key: about
 ---
 
-{% include portfolio-topbar.html %}
-
 <section class="section-panel">
   <div class="section-heading">
     <p class="eyebrow">Über mich</p>
