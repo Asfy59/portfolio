@@ -108,21 +108,24 @@ img {
   font-weight: 700;
 }
 
-.masthead__menu-item--lang {
+.masthead__menu {
   display: flex;
   align-items: center;
-  order: 999;
+  gap: 0.85rem;
+}
+
+.masthead__menu .greedy-nav {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.masthead__lang {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .language-switch--masthead {
-  margin-inline-start: 0.35rem;
-}
-
-.hidden-links .masthead__menu-item--lang {
-  padding: 0.5rem 1rem;
-}
-
-.hidden-links .language-switch--masthead {
   margin-inline-start: 0;
 }
 
@@ -518,6 +521,10 @@ a.external-link.btn::after {
   .gallery-card--large {
     grid-column: auto;
     grid-row: auto;
+  }
+
+  .masthead__menu {
+    gap: 0.55rem;
   }
 
   .project-card:nth-child(even) .project-showcase__media {
