@@ -2,7 +2,12 @@
 title: "Experience"
 permalink: /experience/
 classes: wide portfolio-page
+lang: en
+translation_key: experience
+page_key: experience
 ---
+
+{% include portfolio-topbar.html %}
 
 <section class="section-panel">
   <div class="section-heading">

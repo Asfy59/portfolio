@@ -4,7 +4,12 @@ title: "Muhammad Asfandyar Khan"
 permalink: /
 author_profile: false
 classes: wide portfolio-page home-page
+lang: en
+translation_key: home
+page_key: home
 ---
+
+{% include portfolio-topbar.html %}
 
 <section class="home-hero">
   <div class="home-hero__media">

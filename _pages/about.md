@@ -2,7 +2,12 @@
 title: "About"
 permalink: /about/
 classes: wide portfolio-page
+lang: en
+translation_key: about
+page_key: about
 ---
+
+{% include portfolio-topbar.html %}
 
 <section class="section-panel">
   <div class="section-heading">

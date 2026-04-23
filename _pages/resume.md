@@ -2,7 +2,12 @@
 title: "Resume"
 permalink: /resume/
 classes: wide portfolio-page
+lang: en
+translation_key: resume
+page_key: resume
 ---
+
+{% include portfolio-topbar.html %}
 
 <section class="section-panel">
   <div class="section-heading">

@@ -2,7 +2,12 @@
 title: "Media"
 permalink: /media/
 classes: wide portfolio-page
+lang: en
+translation_key: media
+page_key: media
 ---
+
+{% include portfolio-topbar.html %}
 
 <section class="section-panel">
   <div class="section-heading">

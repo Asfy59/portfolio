@@ -2,7 +2,12 @@
 title: "Projects"
 permalink: /projects/
 classes: wide portfolio-page
+lang: en
+translation_key: projects
+page_key: projects
 ---
+
+{% include portfolio-topbar.html %}
 
 <section class="section-panel">
   <div class="section-heading">

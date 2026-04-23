@@ -1,0 +1,45 @@
+en:
+  - key: home
+    title: "Home"
+    url: /
+  - key: projects
+    title: "Projects"
+    url: /projects/
+  - key: experience
+    title: "Experience"
+    url: /experience/
+  - key: resume
+    title: "Resume"
+    url: /resume/
+  - key: media
+    title: "Media"
+    url: /media/
+  - key: about
+    title: "About"
+    url: /about/
+  - key: contact
+    title: "Contact"
+    url: /contact/
+
+de:
+  - key: home
+    title: "Start"
+    url: /de/
+  - key: projects
+    title: "Projekte"
+    url: /de/projects/
+  - key: experience
+    title: "Erfahrung"
+    url: /de/experience/
+  - key: resume
+    title: "Lebenslauf"
+    url: /de/resume/
+  - key: media
+    title: "Medien"
+    url: /de/media/
+  - key: about
+    title: "Über mich"
+    url: /de/about/
+  - key: contact
+    title: "Kontakt"
+    url: /de/contact/
