@@ -18,18 +18,18 @@
         </a>
 
         <ul class="visible-links">
-          {% for item in nav_items %}
-            <li class="masthead__menu-item">
-              <a href="{{ item.url | relative_url }}" class="{% if item.key == page.page_key %}is-active{% endif %}" {% if item.key == page.page_key %}aria-current="page"{% endif %}>{{ item.title }}</a>
-            </li>
-          {% endfor %}
-
           <li class="masthead__menu-item masthead__menu-item--lang">
             <div class="language-switch language-switch--masthead" aria-label="{% if current_lang == 'de' %}Sprachauswahl{% else %}Language switcher{% endif %}">
               <a href="{% if en_page %}{{ en_page.url | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="language-switch__link{% if current_lang == 'en' %} is-active{% endif %}" {% if current_lang == 'en' %}aria-current="page"{% endif %}>EN</a>
               <a href="{% if de_page %}{{ de_page.url | relative_url }}{% else %}{{ '/de/' | relative_url }}{% endif %}" class="language-switch__link{% if current_lang == 'de' %} is-active{% endif %}" {% if current_lang == 'de' %}aria-current="page"{% endif %}>DE</a>
             </div>
           </li>
+
+          {% for item in nav_items %}
+            <li class="masthead__menu-item">
+              <a href="{{ item.url | relative_url }}" class="{% if item.key == page.page_key %}is-active{% endif %}" {% if item.key == page.page_key %}aria-current="page"{% endif %}>{{ item.title }}</a>
+            </li>
+          {% endfor %}
         </ul>
 
         {% if site.search == true %}
@@ -48,4 +48,3 @@
     </div>
   </div>
 </div>
-
