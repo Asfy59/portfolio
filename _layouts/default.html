@@ -20,7 +20,16 @@ layout: compress
 
     {% include masthead.html %}
 
-    {{ content }}
+    <div class="initial-content">
+      {{ content }}
+
+      <div id="footer" class="page__footer">
+        <footer>
+          {% include footer/custom.html %}
+          {% include_cached footer.html %}
+        </footer>
+      </div>
+    </div>
 
     {% if site.search == true %}
       <div class="search-content">
@@ -36,13 +45,16 @@ layout: compress
       </div>
     {% endif %}
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
-    </div>
+    {% for script in site.footer_scripts %}
+      <script src="{{ script | relative_url }}"></script>
+    {% endfor %}
 
-    {% include scripts.html %}
+    <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+
+    {% if site.search == true %}
+      <script src="{{ '/assets/js/lunr/lunr.min.js' | relative_url }}"></script>
+      <script src="{{ '/assets/js/lunr/lunr-store.js' | relative_url }}"></script>
+      <script src="{{ '/assets/js/lunr/lunr-en.js' | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>
